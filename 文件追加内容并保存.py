@@ -1,0 +1,7 @@
+f = open('1.txt')
+data = f.read()
+print(data)
+f.close()
+c = open('测试.txt','a')
+c.write('\n'+input())
+c.close()
