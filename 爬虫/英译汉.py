@@ -7,8 +7,8 @@ import json
 content = input('请输入需要翻译的内容：')
 url = 'http://fanyi.baidu.com/v2transapi'
 data = {}
-data['from'] = 'en'
-data['to'] = 'zh'
+data['from'] = 'auto'
+data['to'] = 'auto'
 data['query'] = content
 data['transtype'] = 'translang'
 data['simple_means_flag'] = '3'
