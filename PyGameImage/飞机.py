@@ -1,10 +1,10 @@
-# -*- coding:utf-8 -*-
+ei da # -*- coding:utf-8 -*-
 
 import pygame
 from sys import exit
 
 pygame.init()
-screen = pygame.display.set_mode((450,800),0,32)
+screen = pygame.display.set_mode((450,600),0,32)
 pygame.display.set_caption('飞机')
 bg = pygame.image.load('back.jpg').convert()
 plane = pygame.image.load('plane.png').convert_alpha()
@@ -17,7 +17,7 @@ bullet_y = -1
 #  初始化子弹位置
 while True:
     for event in pygame.event.get():
-        if event.type == pygame.QUIT():
+        if event.type == pygame.QUIT:
             pygame.quit()
             exit()
     screen.blit(bg,(0,0))
