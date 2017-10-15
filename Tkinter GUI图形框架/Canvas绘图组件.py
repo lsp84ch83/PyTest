@@ -1,4 +1,4 @@
-# 绘图-画布
+# 绘图组件-画布
 from tkinter import *
 
 root = Tk()

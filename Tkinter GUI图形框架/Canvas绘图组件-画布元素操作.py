@@ -1,4 +1,4 @@
-# 绘图-画布
+# 绘图㢟-画布元素造作
 from tkinter import *
 
 root = Tk()
