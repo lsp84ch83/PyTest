@@ -1,0 +1,9 @@
+Tkinter 提供了三种标准对话框，它们分别是：
+    · messagebox
+    · filedialog
+    · colorchooser
+
+注： 这三个模块原来是独立的，分别是tkMessageBox、tkFileDialog和tkColorChooser，需要导入才能使用。
+    在Pyhon3之后，这些模块全部被手轨道tkinter模块的麾下。
+    使用Python2.X，请在头文件 import tkMessageBox、import tkFileDialog、import tkColorChooser
+    使用Python3.6，请在头文件 import tkinter.messagebox、importtkinter.filedialog、import tkinter.colorchooser
