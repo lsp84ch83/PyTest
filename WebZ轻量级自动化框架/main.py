@@ -40,10 +40,10 @@ class main :
     def main(self) :
         pathnow = os.getcwd()
         try :
-            os.mkdir("D:/WebZ轻量级自动化框架")
+            os.mkdir("F:/PyText/WebZ轻量级自动化框架")
         except Exception as e:
             pass
-        case = getcase.case_format().case_in_xlsx("D:/case.xlsx")
+        case = getcase.case_format().case_in_xlsx("F:/PyText/WebZ轻量级自动化框架/case.xlsx")
         preprocess.preprocess().process(case, pathnow)
         
 if __name__ == '__main__':

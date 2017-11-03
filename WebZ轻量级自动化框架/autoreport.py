@@ -116,7 +116,7 @@ class new_report() :
             drawing.add(self.cn_process(m, xt3, y2, pathnow))
             
 
-        renderPDF.drawToFile(drawing, 'D:/WebZ轻量级自动化框架/test report.pdf')
+        renderPDF.drawToFile(drawing, 'F:/PyText/WebZ轻量级自动化框架/test report.pdf')
 
 
     def auto_log(self, allcount, failcount) :
