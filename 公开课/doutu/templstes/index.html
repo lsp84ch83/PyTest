@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>斗图网站</title>
+</head>
+<body>
+<form action="/search">
+    关键字:<input type="text" name="kw"><br>
+    查询的数量:<input type="text" name="count" value="100"><br>
+    <input type="submit" value="查询">
+
+</form>
+
+{% for i in images %}
+<img src="{{i.imageUrl}}" alt="{{i.name}}">
+{% endfor %}
+
+
+
+</body>
+</html>

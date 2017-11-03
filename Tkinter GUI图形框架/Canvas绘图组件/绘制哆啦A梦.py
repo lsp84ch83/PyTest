@@ -7,7 +7,6 @@ w.pack()
 
 #头
 w.create_oval(180,100,420,340,outline="black",fill="#1E90FF")
-root.mainloop()
 #脸
 w.create_oval(200,140,400,340,outline="black",fill="white")
 
