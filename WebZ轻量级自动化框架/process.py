@@ -4,7 +4,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #
-# Name: WebZ
+# Name: WebZ轻量级自动化框架
 # Description: keyword-driven automated testing framework
 # Author: ZMAN(ZhangNing)
 #
@@ -98,7 +98,7 @@ class process :
             cmethod = 'browser.reload()'
 
         elif method == 'screenshot' :          
-            cmethod = 'browser.screenshot(name="D:/WebZ/WebZ", suffix=".jpg")'
+            cmethod = 'browser.screenshot(name="D:/WebZ轻量级自动化框架/WebZ轻量级自动化框架", suffix=".jpg")'
 
         elif method == 'wait' :
             cmethod = 'time.sleep(2)'

@@ -4,7 +4,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #
-# Name: WebZ
+# Name: WebZ轻量级自动化框架
 # Description: keyword-driven automated testing framework
 # Author: ZMAN(ZhangNing)
 #
@@ -116,7 +116,7 @@ class new_report() :
             drawing.add(self.cn_process(m, xt3, y2, pathnow))
             
 
-        renderPDF.drawToFile(drawing, 'D:/WebZ/test report.pdf')
+        renderPDF.drawToFile(drawing, 'D:/WebZ轻量级自动化框架/test report.pdf')
 
 
     def auto_log(self, allcount, failcount) :

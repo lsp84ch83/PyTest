@@ -4,7 +4,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #
-# Name: WebZ
+# Name: WebZ轻量级自动化框架
 # Description: keyword-driven automated testing framework
 # Author: ZMAN(ZhangNing)
 #
@@ -27,7 +27,7 @@
 import main
 
 if __name__ == '__main__' :
-    print("Welcome to WebZ")
+    print("Welcome to WebZ轻量级自动化框架")
     print("Ver 0.0.3.141203\n")
     main.main()
     

@@ -4,7 +4,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #
-# Name: WebZ
+# Name: WebZ轻量级自动化框架
 # Version: 0.0.3.141224
 # Description: keyword-driven automated testing framework
 # Author: ZMAN(ZhangNing)
@@ -34,13 +34,13 @@ class main :
     def __init__(self) :
         self.main()
 
-# the output folder is 'D:/WebZ'
+# the output folder is 'D:/WebZ轻量级自动化框架'
 # please put the test case 'case.xlsx' in 'D:/'
 
     def main(self) :
         pathnow = os.getcwd()
         try :
-            os.mkdir("D:/WebZ")
+            os.mkdir("D:/WebZ轻量级自动化框架")
         except Exception as e:
             pass
         case = getcase.case_format().case_in_xlsx("D:/case.xlsx")
