@@ -1,0 +1,67 @@
+一、显式等待：WebDriverWait()
+    在设置时间内，默认每隔一段时间检测一次当前页面元素是否存在，如果超过设置时间检测不到则抛出异常
+------------------------------------------------------------------------------------------------
+例子：
+#coding=utf-8
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+driver = webdriver.Firefox()
+driver.get("http://www.baidu.com")
+element = WebDriverWait(driver,5,0.5).until(
+        EC.presence_of_element_located((By.ID,"kw"))
+        )
+element.send_keys('selenium')
+
+driver.quit()
+------------------------------------------------------------------------------------------------
+具体格式如下：
+WebDriverWait(driver, timeout, poll_frequency=0.5, ignored_exceptions=None)
+driver                 WebDriver 的驱动程序（Ie， Firefox，Chrome 等）
+timeout                最长超时时间，默认以秒为单位
+poll_frequency         休眠时间的间隔（步长）时间，默认为 0.5秒
+ignored_exceptions     超时后的异常信息，默认情况下抛NoSuchElementException 异常
+------------------------------------------------------------------------------------------------
+until()
+WebDriverWait()一般由 until()（或 until_not()）方法配合使用；返回值位True或False
+------------------------------------------------------------------------------------------------
+expected_conditions 类提供一些预期条件的实现:
+用法                                     说明
+title_is                                 用于判断标题是否 xx。
+title_contains                           用于判断标题是否包含 xx 信息。
+presence_of_element_located              元素是否存在。
+visibility_of_element_located            元素是否可见。
+visibility_of                            是否可见
+presence_of_all_elements_located         判断一组元素的是否存在
+text_to_be_present_in_element            判断元素是否有 xx 文本信息
+text_to_be_present_in_element_value      判断元素值是否有 xx 文本信息
+frame_to_be_available_and_switch_to_it   表单是否可用，并切换到该表单。
+invisibility_of_element_located          判断元素是否隐藏
+element_to_be_clickable                  判断元素是否点击，它处于可见和启动状态
+staleness_of                             等到一个元素不再是依附于 DOM。
+element_to_be_selected                   被选中的元素。
+element_located_to_be_selected           一个期望的元素位于被选中。
+element_selection_state_to_be            一个期望检查如果给定的元素被选中。
+element_located_selection_state_to_be    期望找到一个元素并检查是否选择状态
+alert_is_present                         预期一个警告信息
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+二、隐式等待：implicitly_wait()
+    通过一定的时长等待页面所有元素加载完成,哪果超出了设置的时长元素还没有被加载测抛NoSuchElementException异常
+    默认设置为0秒
+例子：
+#coding=utf-8
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+
+driver = webdriver.Firefox()
+driver.implicitly_wait(10)
+driver.get("http://www.baidu.com")
+
+input_ = driver.find_element_by_id("kw22")
+input_.send_keys('selenium')
+
+driver.quit()
+------------------------------------------------------------------------------------------------
