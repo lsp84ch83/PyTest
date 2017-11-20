@@ -17,6 +17,9 @@ driver.switch_to_frame('if')
 
 driver.find_element_by_id("kw").send_keys("Selenium")
 driver.find_element_by_id("su").click()
-sleep(2)
 
+# 返回上一层表单
+driver.switch_to_default_content()
+
+sleep(2)
 driver.quit()
