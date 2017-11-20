@@ -22,11 +22,24 @@ for i in inputs:
         i.click()
     sleep(2)
 '''
+'''
 # 通过Xpath查找复选框
 checks = driver.find_elements_by_xpath("//input[@type='checkbox']")
 for check in checks:
     check.click()
     sleep(1.5)
+'''
+# 通过CSS查找复选框
+checkboxes = driver.find_elements_by_css_selector("input[type=checkbox]")
+for checkbox in checkboxes:
+    checkbox.click()
+    sleep(1.5)
+# 打印当前页面type=checkbox的个数
+print(len(checkboxes))
+
+# 取消最后一个type=checkbox的复选框
+# pop 函数用于获取列表中的一个元素，默认为最后一个(-1);(0)为获取第一个元素
+driver.find_elements_by_css_selector("input[type=checkbox]").pop().click()
 
 sleep(1)
 driver.quit()
