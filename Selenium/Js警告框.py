@@ -15,8 +15,8 @@ driver.get("http://wwww.baidu.com")
 # 鼠标在“设置”处悬停
 link = driver.find_element_by_link_text("设置")
 ActionChains(driver).move_to_element(link).perform()
-sleep(1.5)
+#sleep(1.5)
 # 打开搜索设置
 driver.find_element_by_class_name("setpref").click()
 # 保存设置
-driver.find_element_by_css_selector("#gxszButton > a.prefpanelgo").click()
+driver.find_element_by_css_selector("").click()
