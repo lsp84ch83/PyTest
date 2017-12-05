@@ -10,8 +10,8 @@ WebDriver 操作 cookie 的方法：
 •  get_cookie(name):  返回字典的 key 为 "name" 的 cookie 信息。
 •  add_ cookie(cookie_  diet):  添加 cookie, "cooki e_di ct" 指字典对象，必须有 name 和 value 值。
 •  delete_cookie(name,optionsString):  删除 cookie 信息。
-                    " name" 是要删除的 cook记的名称
-                    "optionsString" 是该 cookie 的选项， 目前支持的选项包括“路径" .“域” 。
+        "name" 是要删除的 cook记的名称
+        "optionsString" 是该 cookie 的选项， 目前支持的选项包括“路径" .“域” 。
 •  delete_ all_ cookies():  删除所有 cooki e 信息。
 """
 from selenium import webdriver
@@ -23,8 +23,8 @@ driver.get("http://pan.baidu.com")
 
 # 登录一次以便获取cookie
 driver.find_element_by_xpath('//*[@id="login-middle"]/div/div[6]/div[2]/a').click()
-driver.find_element_by_name("userName").send_keys("username")
-driver.find_element_by_id("TANGRAM__PSP_4__password").send_keys("password")
+driver.find_element_by_name("userName").send_keys("username")   # 更换成自己的账号
+driver.find_element_by_id("TANGRAM__PSP_4__password").send_keys("password")     #更换成自己的密码
 driver.find_element_by_id("TANGRAM__PSP_4__submit").submit()
 
 # 获取cookie并通过json模块将dict转化成str
