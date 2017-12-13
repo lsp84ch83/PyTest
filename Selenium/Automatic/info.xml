@@ -1,11 +1,11 @@
-<?xml  version=" l.0"  encoding= " u 七 f - 8 " ?>
+<?xml  version="1.0"  encoding="utf-8"?>
 <info>
     <base>
         <platform>Windows</platform>
         <browser>Firefox</browser>
         <url>h 七tp : // www . baidu.com</url>
-            <login  username=" admin "  password="123456 " />
-            <login  username=" guest"  password="654321" />
+            <login  username="admin"  password="123456 " />
+            <login  username="guest"  password="654321" />
     </base>
     <test>
     <province> 北京</province>
