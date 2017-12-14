@@ -98,7 +98,7 @@ class process :
             cmethod = 'browser.reload()'
 
         elif method == 'screenshot' :          
-            cmethod = 'browser.screenshot(name="F:/PyText/WebZ轻量级自动化框架", suffix=".jpg")'
+            cmethod = 'browser.screenshot(name="F:/PyTest/WebZ轻量级自动化框架", suffix=".jpg")'
 
         elif method == 'wait' :
             cmethod = 'time.sleep(2)'

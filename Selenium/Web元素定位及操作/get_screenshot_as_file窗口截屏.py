@@ -16,6 +16,6 @@ try:
     driver.find_element_by_id("su").click()
     sleep(2)
 except:
-    driver.get_screenshot_as_file("F:\\PyText\\Selenium\\baidu_err.jpg")
+    driver.get_screenshot_as_file("F:\\PyTest\\Selenium\\baidu_err.jpg")
 
 driver.quit()
