@@ -1,0 +1,2 @@
+打开cmd，进入到相应的 runtest.py 目录，执行以下命令
+py runtest.py >> report/log.txt 2>&1
