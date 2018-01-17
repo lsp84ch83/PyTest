@@ -60,7 +60,7 @@ def getFlowFromUid(packagename, uid=None):
     d_flow = []
     u_flow = []
     for line in std:
-        if 'wlan' in line and '0x0' not in line:
+        if 'wlan0' in line and '0x0' in line:
             data = line.split()
             d_flow.append(int(data[5]))
             u_flow.append(int(data[7]))
@@ -96,8 +96,9 @@ if __name__ == '__main__':
     initAPP(packagename)
 
     # pid = getPID(packagename)
-    uid = getUserId(packagename)
-
+    uid = (getUserId(packagename))[0:5]
+    #uid = uid1[0:5]
+    print(uid)
     # 获取应用初始上下行流量
     stard_rx, start_tx = getFlowFromUid(packagename, uid)
 

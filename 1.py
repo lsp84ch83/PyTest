@@ -4,30 +4,29 @@
 # @Author  : Soner
 # @version : 
 # @license : Copyright(C), Your Company
-# coding=utf-8
 import subprocess
 import time
 
 fo = open(r"D:\foo.txt", "w")
-# # 获取进程ID
-# getProcessIdcmd = 'adb shell ps | findstr cn.com.haoluo.www'
-# p = subprocess.Popen(getProcessIdcmd, shell=False, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-# content = p.stdout.readlines()
-# if len(content) == 1:
-#     processId = content[0].split()[1]
-# else:
-#     print("not get processID")
-# # 获取进程对应的UID
-# getUidcmd = 'adb shell cat /proc/' + processId + '/status | findstr Uid'
-#
-# p = subprocess.Popen(getUidcmd, shell=False, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-# content = p.stdout.readlines()
-# uidList = content[0].strip().split('\t')
-# print(uidList)
-# uid = uidList[1]
-uid = "10344"
+# 获取进程ID
+getProcessIdcmd = 'adb shell ps | grep appname'
+p = subprocess.Popen(getProcessIdcmd, shell=False, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+content = p.stdout.readlines()
+if len(content) == 1:
+    processId = content[0].split()[1]
+else:
+    print("not get processID")
+# 获取进程对应的UID
+getUidcmd = 'adb shell cat /proc/' + processId + '/status | grep Uid'
+
+p = subprocess.Popen(getUidcmd, shell=False, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+content = p.stdout.readlines()
+uidList = content[0].strip().split('\t')
+print(uidList)
+uid = uidList[1]
+
 # 获取UID对应的Traffic
-getTrafficcmd = 'adb shell cat /proc/net/xt_qtaguid/stats | findstr ' + uid
+getTrafficcmd = 'adb shell cat /proc/net/xt_qtaguid/stats | grep ' + uid
 
 for i in range(10000):
     currentTime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
