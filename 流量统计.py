@@ -1,5 +1,17 @@
-# coding=utf-8
-__author__ = 'anyone'
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+'''
+@Author  : Soner
+@version :
+@Time    : 2017/11/3/0003 15:11
+@license : Copyright(C), Your Company
+
+获取包名方法：
+1. adb logcat -c 清理
+2. adb logcat | findstr START 获取
+3. 启动相应的APP 进行获取包名
+'''
+__author__ = '$USER'
 import os
 import re
 import time
@@ -72,11 +84,11 @@ def getFlow(packagename, uid=None):
 
 if __name__ == '__main__':
     # 应用信息
-    packagename = 'com......'   # 待监测APP的包名
-    luanchActivity = packagename + '/' + 'com.....' #待监测APP的Activity
+    packagename = 'cn.com.haoluo.www'   # 待监测APP的包名
+    luanchActivity = packagename + '/' + '.ui.LauncherActivity' #待监测APP的Activity
 
     # 监控20秒，监控多久自己控制
-    LIMIT = 20
+    LIMIT = 200
 
     # 初始化adb
     initADB()
