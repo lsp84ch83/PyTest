@@ -11,7 +11,6 @@
 2. adb logcat | findstr START 获取
 3. 启动相应的APP 进行获取包名
 '''
-__author__ = '$USER'
 import os
 import re
 import time
@@ -57,14 +56,36 @@ def getFlowFromUid(packagename, uid=None):
         uid = getUserId(packagename)
     cmd = 'adb shell cat /proc/net/xt_qtaguid/stats | findstr %s' % uid
     std = os.popen(cmd)
-    d_flow = []
-    u_flow = []
+    net_rcv_bck = []
+    net_rcv_front = []
+    net_snd_bck = []
+    net_snd_front = []
+
+    lo_rcv_bck = []
+    lo_rcv_front = []
+    lo_snd_bck = []
+    lo_snd_front = []
+
     for line in std:
-        if 'wlan0' in line and '0x0' in line:
-            data = line.split()
-            d_flow.append(int(data[5]))
-            u_flow.append(int(data[7]))
-    return sum(d_flow), sum(u_flow)
+        data = line.split()
+        if 'ccmni0' in line:
+            background_flow = int(data[4]) == 0
+            if background_flow:
+                net_rcv_bck.append(int(data[5]))
+                net_snd_bck.append(int(data[7]))
+            else:
+                net_rcv_front.append(int(data[5]))
+                net_snd_front.append(int(data[7]))
+        elif 'lo' in line:
+            background_flow = int(data[4]) == 0
+            if background_flow:
+                lo_rcv_bck.append(int(data[5]))
+                lo_snd_bck.append(int(data[7]))
+            else:
+                lo_rcv_front.append(int(data[5]))
+                lo_snd_front.append(int(data[7]))
+    return sum(net_rcv_bck), sum(net_rcv_front), sum(net_snd_bck), sum(net_snd_front), \
+            sum(lo_rcv_bck), sum(lo_rcv_front), sum(lo_snd_bck), sum(lo_snd_front)
 
 
 def getFlow(packagename, uid=None):
@@ -84,11 +105,11 @@ def getFlow(packagename, uid=None):
 
 if __name__ == '__main__':
     # 应用信息
-    packagename = 'cn.com.haoluo.www'   # 待监测APP的包名
-    luanchActivity = packagename + '/' + '.ui.LauncherActivity' #待监测APP的Activity
+    packagename = 'com.txznet.txz'   # 待监测APP的包名
+    launchActivity = packagename + '/' + '.ui.LauncherActivity' #待监测APP的Activity
 
     # 监控20秒，监控多久自己控制
-    LIMIT = 200
+    LIMIT = 20
 
     # 初始化adb
     initADB()
@@ -100,10 +121,16 @@ if __name__ == '__main__':
     #uid = uid1[0:5]
     print(uid)
     # 获取应用初始上下行流量
-    stard_rx, start_tx = getFlowFromUid(packagename, uid)
+    net_bck_start_rx, net_front_start_rx, net_bck_start_tx, net_front_start_tx, \
+        lo_bck_start_rx, lo_front_start_rx, lo_bck_start_tx, lo_front_start_tx = getFlowFromUid(packagename, uid)
+    
+    net_start_rx = net_bck_start_rx + net_front_start_rx
+    net_start_tx = net_bck_start_tx + net_front_start_tx
+    lo_start_rx = lo_bck_start_rx + lo_front_start_rx
+    lo_start_tx = lo_bck_start_tx + lo_front_start_tx
 
     # 启动应用
-    startAPP(luanchActivity)
+    #startAPP(launchActivity)
 
     # 开始监控
     n = 0
@@ -111,17 +138,26 @@ if __name__ == '__main__':
         try:
             n += 1
             time.sleep(1)
-            end_rx, end_tx = getFlowFromUid(packagename, uid)
-            flow_rx, flow_tx = end_rx - stard_rx, end_tx - start_tx
-            rx_kb, tx_kb = round(flow_rx / 1024, 3), round(flow_tx / 1024, 3)
-            rx_mb, tx_mb = round(flow_rx / 1024 / 1024, 3), round(flow_tx / 1024 / 1024, 3)
+            net_bck_end_rx, net_front_end_rx, net_bck_end_tx, net_front_end_tx, \
+            lo_bck_end_rx, lo_front_end_rx, lo_bck_end_tx, lo_front_end_tx = getFlowFromUid(packagename, uid)
+
+            net_end_rx = net_bck_end_rx + net_front_end_rx
+            net_end_tx = net_bck_end_tx + net_front_end_tx
+            lo_end_rx = lo_bck_end_rx + lo_front_end_rx
+            lo_end_tx = lo_bck_end_tx + lo_front_end_tx
+            
+            net_flow_rx, net_flow_tx = net_end_rx - net_start_rx, net_end_tx - net_start_tx
+            lo_flow_rx, lo_flow_tx = lo_end_rx - lo_start_rx, lo_end_tx - lo_start_tx
+            net_rx_kb, net_tx_kb = round(net_flow_rx / 1024, 3), round(net_flow_tx / 1024, 3)
+            lo_rx_kb, lo_tx_kb = round(lo_flow_rx / 1024, 3), round(lo_flow_tx / 1024, 3)
+            #rx_mb, tx_mb = round(flow_rx / 1024 / 1024, 3), round(flow_tx / 1024 / 1024, 3)
             print(n,
-                  '下行：', rx_kb, 'KB\t',
-                  '上行：', tx_kb, 'KB\t',
-                  '总流量', round(rx_kb + tx_kb, 3), 'KB\t\t',
-                  '下行：', rx_mb, 'MB\t',
-                  '上行：', tx_mb, 'MB\t',
-                  '总流量', round(rx_mb + tx_mb, 3), 'MB\t'
+                  '网络下行：', net_rx_kb, 'KB\t',
+                  '网络上行：', net_tx_kb, 'KB\t',
+                  '网络总流量', round(net_rx_kb + net_tx_kb, 3), 'KB\t\t',
+                  '本地下行：', lo_rx_kb, 'KB\t',
+                  '本地上行：', lo_tx_kb, 'KB\t',
+                  '本地总流量', round(lo_rx_kb + lo_tx_kb, 3), 'KB\t'
                   )
             if n == LIMIT:
                 break
@@ -131,8 +167,8 @@ if __name__ == '__main__':
     print(
         '统计时长：%d s' % LIMIT
     )
-    print(
-        '实际下行流量：', rx_mb, 'MB\t',
-        '实际上行流量：', tx_mb, 'MB\t',
-        '实际总流量', round(rx_mb + tx_mb, 3), 'MB\t'
-    )
+    # print(
+    #     '实际下行流量：', rx_mb, 'MB\t',
+    #     '实际上行流量：', tx_mb, 'MB\t',
+    #     '实际总流量', round(rx_mb + tx_mb, 3), 'MB\t'
+    # )
