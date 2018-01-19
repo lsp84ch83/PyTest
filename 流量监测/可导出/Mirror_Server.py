@@ -19,55 +19,45 @@ def getUid(package_name):#获取UID
     uid = uidLongList[1]
     return uid[0:5]
 
-def getRev(package_name, uid = None):#获取某个APP的后台下载流量
+def getFlowFromUid(packagename, uid=None):
+    '''
+    # 通过应用uid，获取应用当前消耗的流量
+    # return (rcv,snd)
+    '''
     if uid is None:
-        uid = getUid(package_name)
+        uid = getUid(packagename)
     cmd = 'adb shell cat /proc/net/xt_qtaguid/stats | findstr %s' % uid
     std = os.popen(cmd)
     net_rcv_bck = []
-    net_snd_bck = []
-
-    lo_rcv_bck = []
-    lo_snd_bck = []
-
-    for line in std:
-        data = line.split()
-        if 'ccmni0' in line:
-            background_flow = int(data[4]) == 0
-            if background_flow:
-                net_rcv_bck.append(int(data[5]))    # 后台 上传流量
-                net_snd_bck.append(int(data[7]))    # 后台 下载流量
-        elif 'lo' in line:
-            background_flow = int(data[4]) == 0
-            if background_flow:
-                lo_rcv_bck.append(int(data[5]))  # 本地后台 上传流量
-                lo_snd_bck.append(int(data[7]))  # 本地后台 下载流量
-    return sum(net_rcv_bck), sum(net_snd_bck), sum(lo_rcv_bck), sum(lo_snd_bck)
-
-def getSnd(package_name, uid = None):#获取某个APP的前台上传流量
-    if uid is None:
-        uid = getUid(package_name)
-    cmd = 'adb shell cat /proc/net/xt_qtaguid/stats | findstr %s' % uid
-    std = os.popen(cmd)
     net_rcv_front = []
+    net_snd_bck = []
     net_snd_front = []
 
+    lo_rcv_bck = []
     lo_rcv_front = []
+    lo_snd_bck = []
     lo_snd_front = []
 
     for line in std:
         data = line.split()
         if 'ccmni0' in line:
-            background_flow = int(data[4]) == 1
+            background_flow = int(data[4]) == 0
             if background_flow:
-                net_rcv_front.append(int(data[5]))  # 前台 上传流量
-                net_snd_front.append(int(data[7]))  # 前台 下载流量
+                net_rcv_bck.append(int(data[5]))
+                net_snd_bck.append(int(data[7]))
+            else:
+                net_rcv_front.append(int(data[5]))
+                net_snd_front.append(int(data[7]))
         elif 'lo' in line:
-            background_flow = int(data[4]) == 1
+            background_flow = int(data[4]) == 0
             if background_flow:
-                lo_rcv_front.append(int(data[5]))   # 本地前台  上传流量
-                lo_snd_front.append(int(data[7]))   # 本地前台  下载流量
-    return sum(net_rcv_front), sum(net_snd_front), sum(lo_rcv_front), sum(lo_snd_front)
+                lo_rcv_bck.append(int(data[5]))
+                lo_snd_bck.append(int(data[7]))
+            else:
+                lo_rcv_front.append(int(data[5]))
+                lo_snd_front.append(int(data[7]))
+    return sum(net_rcv_bck), sum(net_rcv_front), sum(net_snd_bck), sum(net_snd_front), \
+            sum(lo_rcv_bck), sum(lo_rcv_front), sum(lo_snd_bck), sum(lo_snd_front)
 
 time_end =259200 # 72个小时时间，单位秒
 col =0
@@ -87,7 +77,7 @@ sheet_load_Mirror_Server.write(row, col + 6, "本地总流量(KB)")
 
 # ----------------- 需要监测的包名 -----------------
 package_name_Mirror_Server= "cn.hollo.mirror.service"
-
+uid = (getUid(package_name_Mirror_Server))[0:5]
 try:
     uid_sdk = getUid(package_name_Mirror_Server)
     print(time.strftime('%Y-%m-%d   %H:%M:%S',time.localtime(time.time())) +'  uid =  '+str(uid_sdk))
@@ -97,8 +87,8 @@ except:
 row =1
 col =0
 s = 1
-net_bck_start_rx, net_bck_start_tx, lo_bck_start_rx,  lo_bck_start_tx = getRev(package_name_Mirror_Server)  # 后台流量
-net_front_start_rx, net_front_start_tx, lo_front_start_rx,lo_front_start_tx = getRev(package_name_Mirror_Server)# 前台流量
+net_bck_start_rx, net_front_start_rx, net_bck_start_tx, net_front_start_tx, \
+lo_bck_start_rx, lo_front_start_rx, lo_bck_start_tx, lo_front_start_tx = getFlowFromUid(package_name_Mirror_Server, uid)
 
 net_start_rx = net_bck_start_rx + net_front_start_rx
 net_start_tx = net_bck_start_tx + net_front_start_tx
@@ -107,8 +97,8 @@ lo_start_tx = lo_bck_start_tx + lo_front_start_tx
 
 while   time_end > 0:
 
-    net_bck_end_rx, net_bck_end_tx, lo_bck_end_rx, lo_bck_end_tx = getSnd(package_name_Mirror_Server)
-    net_front_end_rx, net_front_end_tx, lo_front_end_rx,lo_front_end_tx = getSnd(package_name_Mirror_Server)
+    net_bck_end_rx, net_front_end_rx, net_bck_end_tx, net_front_end_tx, \
+    lo_bck_end_rx, lo_front_end_rx, lo_bck_end_tx, lo_front_end_tx = getFlowFromUid(package_name_Mirror_Server, uid)
 
     net_end_rx = net_bck_end_rx + net_front_end_rx
     net_end_tx = net_bck_end_tx + net_front_end_tx
@@ -129,7 +119,7 @@ while   time_end > 0:
     sheet_load_Mirror_Server.write(row, col + 4, lo_rx_kb)  # 写入本地上行(KB)
     sheet_load_Mirror_Server.write(row, col + 5, lo_tx_kb)  # 写入本地下行(KB)
     sheet_load_Mirror_Server.write(row, col + 6, round(lo_rx_kb + lo_tx_kb, 3))  # 写入本地总流量(KB)
-    book_Mirror_Server.save(r"d:\MirrorFolw.xls")
+    book_Mirror_Server.save(r"d:\Mirror_Server_Folw.xls")
 
     print("---------- %s ----------" % row)
     print(
@@ -142,10 +132,8 @@ while   time_end > 0:
           )
 
     row = row +1
-
     time.sleep(10)  # 控制监测频率
     time_end -=10
     s +=1
     if time_end <=0:
         print("---------- END ----------")
-    book_Mirror_Server.save(r"d:\Mirror_Server_Folw.xls")
