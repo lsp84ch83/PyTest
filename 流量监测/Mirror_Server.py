@@ -30,7 +30,7 @@ def initADB():
 
 def initAPP(packagename):
     cmd = 'adb shell pm clear %s' % packagename
-    _exec(cgit
+    _exec(cmd)
 
 
 def startAPP(luanchActivity):
