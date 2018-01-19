@@ -69,7 +69,7 @@ def getSnd(package_name, uid = None):#获取某个APP的前台上传流量
                 lo_snd_front.append(int(data[7]))   # 本地前台  下载流量
     return sum(net_rcv_front), sum(net_snd_front), sum(lo_rcv_front), sum(lo_snd_front)
 
-time_end =86400 # 24个小时时间，单位秒
+time_end =259200 # 72个小时时间，单位秒
 col =0
 row =0
 
