@@ -76,7 +76,7 @@ sheet_load_Txz.write(row, col + 5, "本地上行(KB)")
 sheet_load_Txz.write(row, col + 6, "本地总流量(KB)")
 
 # ----------------- 需要监测的包名 -----------------
-package_name_Txz= "cn.hollo.mirror"
+package_name_Txz= "com.txznet.txz"
 uid = (getUid(package_name_Txz))[0:5]
 try:
     uid_sdk = getUid(package_name_Txz)
