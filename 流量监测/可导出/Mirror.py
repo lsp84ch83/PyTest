@@ -9,7 +9,10 @@ import time
 import subprocess
 import xlwt
 import os
+import shutil
+import datetime
 
+# ----------------- 获取设备UID -----------------
 def getUid(package_name):#获取UID
     cmd = 'adb shell dumpsys package ' + package_name + ' | findstr userId'
     p1 = subprocess.Popen(cmd, shell = True,
@@ -18,7 +21,7 @@ def getUid(package_name):#获取UID
     uidLongList = uidLongString.split("=")
     uid = uidLongList[1]
     return uid[0:5]
-
+# ----------------- 计算设备流量 -----------------
 def getFlowFromUid(packagename, uid=None):
     '''
     # 通过应用uid，获取应用当前消耗的流量
@@ -59,7 +62,86 @@ def getFlowFromUid(packagename, uid=None):
     return sum(net_rcv_bck), sum(net_rcv_front), sum(net_snd_bck), sum(net_snd_front), \
             sum(lo_rcv_bck), sum(lo_rcv_front), sum(lo_snd_bck), sum(lo_snd_front)
 
-time_end =259200 # 72个小时时间，单位秒
+# ----------------- 发送邮件 -----------------
+''''' 
+函数说明：Send_email_text() 函数实现发送带有附件的邮件，可以群发，附件格式包括：xlsx,pdf,txt,jpg,mp3等 
+参数说明： 
+    1. subject：邮件主题 
+    2. content：邮件正文 
+    3. filepath：附件的地址, 输入格式为["","",...] 
+    4. receive_email：收件人地址, 输入格式为["","",...] 
+'''  
+def Send_email_text(subject,content,filepath,receive_email):  
+    import smtplib  
+    from email.mime.multipart import MIMEMultipart   
+    from email.mime.text import MIMEText   
+    from email.mime.application import MIMEApplication  
+    sender = "13521895260@163.com"  
+    passwd = "lsp84ch83"  
+    receivers = receive_email   #收件人邮箱  
+      
+    msgRoot = MIMEMultipart()   
+    msgRoot['Subject'] = subject  
+    msgRoot['From'] = sender  
+      
+    if len(receivers)>1:  
+        msgRoot['To'] = ','.join(receivers) #群发邮件  
+    else:  
+        msgRoot['To'] = receivers[0]  
+      
+    part = MIMEText(content)   
+    msgRoot.attach(part)  
+      
+    ##添加附件部分  
+    for path in filepath:
+        if ".jpg" in path:  
+            #jpg类型附件  
+            jpg_name = path.split("\\")[-1]  
+            part = MIMEApplication(open(path,'rb').read())   
+            part.add_header('Content-Disposition', 'attachment', filename=jpg_name)  
+            msgRoot.attach(part)  
+          
+        if ".pdf" in path:  
+            #pdf类型附件  
+            pdf_name = path.split("\\")[-1]  
+            part = MIMEApplication(open(path,'rb').read())   
+            part.add_header('Content-Disposition', 'attachment', filename=pdf_name)   
+            msgRoot.attach(part)  
+          
+        if ".xls" in path:  
+            #xlsx类型附件  
+            xlsx_name = path.split("\\")[-1]  
+            part = MIMEApplication(open(path,'rb').read())   
+            part.add_header('Content-Disposition', 'attachment', filename=xlsx_name)  
+            msgRoot.attach(part)  
+              
+        if ".txt" in path:  
+            #txt类型附件  
+            txt_name = path.split("\\")[-1]  
+            part = MIMEApplication(open(path,'rb').read())  
+            part.add_header('Content-Disposition', 'attachment', filename=txt_name)  
+            msgRoot.attach(part)  
+          
+        if ".mp3" in path:  
+            #mp3类型附件  
+            mp3_name = path.split("\\")[-1]  
+            part = MIMEApplication(open(path,'rb').read())   
+            part.add_header('Content-Disposition', 'attachment', filename=mp3_name)   
+            msgRoot.attach(part)
+    
+    try:
+        global m
+        m = smtplib.SMTP()  
+        m.connect("smtp.163.com") #这里我使用的是阿里云邮箱,也可以使用163邮箱：smtp.163.com  
+        m.login(sender, passwd)  
+        m.sendmail(sender, receivers, msgRoot.as_string())  
+        print("邮件发送成功")  
+    except smtplib.SMTPException as e:  
+        print("Error, 发送失败")  
+    finally:  
+        m.quit()
+
+# ----------------- 创建EXCEL表格 -----------------
 col =0
 row =0
 
@@ -75,7 +157,9 @@ sheet_load_Mirror.write(row, col + 4, "本地下行(KB)")
 sheet_load_Mirror.write(row, col + 5, "本地上行(KB)")
 sheet_load_Mirror.write(row, col + 6, "本地总流量(KB)")
 
+
 # ----------------- 需要监测的包名 -----------------
+time_end =0 # 监测时间是72个小时时间，单位秒
 package_name_Mirror= "cn.hollo.mirror"
 uid = (getUid(package_name_Mirror))[0:5]
 try:
@@ -83,6 +167,10 @@ try:
     print(time.strftime('%Y-%m-%d   %H:%M:%S',time.localtime(time.time())) +'  uid =  '+str(uid_sdk))
 except:
     print('获取Mirror-uid失败')
+
+# ----------------- 定位文件目录 -----------------
+file_dir = "D:\\"
+os.chdir(file_dir)
 
 row =1
 col =0
@@ -95,7 +183,9 @@ net_start_tx = net_bck_start_tx + net_front_start_tx
 lo_start_rx = lo_bck_start_rx + lo_front_start_rx
 lo_start_tx = lo_bck_start_tx + lo_front_start_tx
 
-while   time_end > 0:
+i = 1
+
+while   time_end <= 259200:
 
     net_bck_end_rx, net_front_end_rx, net_bck_end_tx, net_front_end_tx, \
     lo_bck_end_rx, lo_front_end_rx, lo_bck_end_tx, lo_front_end_tx = getFlowFromUid(package_name_Mirror, uid)
@@ -131,9 +221,30 @@ while   time_end > 0:
           '本地总流量', round(lo_rx_kb + lo_tx_kb, 3), 'KB\t'
           )
 
+    if time_end == (120 * i):
+        shutil.copy("Mirror_Folw.xls", "d:\\test\\Mirror_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
+        shutil.copy("Mirror_Server_Folw.xls", "d:\\test\\Mirror_Server_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
+        shutil.copy("Mirror_Txz_Folw.xls", "d:\\test\\Mirror_Txz_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
+
+        subject = "流量监测"  
+        content = "附件为后视镜产品相关APP的流量监测使用情况"  
+        jpg_path = "d:\\test\\Mirror_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))  
+        pdf_path = "d:\\test\\Mirror_Server_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))  
+        txt_path = "d:\\test\\Mirror_Txz_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())) 
+        file_path = [jpg_path,pdf_path,txt_path]  #发送三个文件到两个邮箱  
+        receive_email = ["317152347@QQ.com"]  
+        Send_email_text(subject,content,file_path,receive_email)
+        
+        print("第%s个半小时保存备份成功" % str(i))
+        i += 1
+
     row = row +1
     time.sleep(10)  # 控制监测频率
-    time_end -=10
-    s +=1
+    time_end +=10
+ 
     if time_end <=0:
         print("---------- END ----------")
+
+
+
+    

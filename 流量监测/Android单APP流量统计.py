@@ -144,12 +144,12 @@ if __name__ == '__main__':
             net_end_rx = net_bck_end_rx + net_front_end_rx
             net_end_tx = net_bck_end_tx + net_front_end_tx
             lo_end_rx = lo_bck_end_rx + lo_front_end_rx
-            lo_end_tx = lo_bck_end_tx + lo_front_end_tx
+            lo_end_tx = lo_bck_end_tx + lo_front_end_tx #   本地
             
-            net_flow_rx, net_flow_tx = net_end_rx - net_start_rx, net_end_tx - net_start_tx
-            lo_flow_rx, lo_flow_tx = lo_end_rx - lo_start_rx, lo_end_tx - lo_start_tx
-            net_rx_kb, net_tx_kb = round(net_flow_rx / 1024, 3), round(net_flow_tx / 1024, 3)
-            lo_rx_kb, lo_tx_kb = round(lo_flow_rx / 1024, 3), round(lo_flow_tx / 1024, 3)
+            net_flow_rx, net_flow_tx = net_end_rx - net_start_rx, net_end_tx - net_start_tx # 网络下行、上行流量
+            lo_flow_rx, lo_flow_tx = lo_end_rx - lo_start_rx, lo_end_tx - lo_start_tx   # 本地下行、上行流量
+            net_rx_kb, net_tx_kb = round(net_flow_rx / 1024, 3), round(net_flow_tx / 1024, 3)    # 将网络下行、上行转换为KB
+            lo_rx_kb, lo_tx_kb = round(lo_flow_rx / 1024, 3), round(lo_flow_tx / 1024, 3)   # 将本地下行、上行转换为KB
             #rx_mb, tx_mb = round(flow_rx / 1024 / 1024, 3), round(flow_tx / 1024 / 1024, 3)
             print(n,
                   '网络下行：', net_rx_kb, 'KB\t',
