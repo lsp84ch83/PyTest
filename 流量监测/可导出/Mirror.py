@@ -221,17 +221,26 @@ while   time_end <= 259200:
           '本地总流量', round(lo_rx_kb + lo_tx_kb, 3), 'KB\t'
           )
 
-    if time_end == (120 * i):
+    if time_end == (900 * i):
         shutil.copy("Mirror_Folw.xls", "d:\\test\\Mirror_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
         shutil.copy("Mirror_Server_Folw.xls", "d:\\test\\Mirror_Server_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
         shutil.copy("Mirror_Txz_Folw.xls", "d:\\test\\Mirror_Txz_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
 
+        shutil.copy("Amapautolite_Folw.xls", "d:\\test\\Amapautolite_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
+        shutil.copy("Kwmusiccar_Folw.xls", "d:\\test\\Kwmusiccar_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
+        shutil.copy("Webchat_Folw.xls", "d:\\test\\Webchat_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
+
+
         subject = "流量监测"  
         content = "附件为后视镜产品相关APP的流量监测使用情况"  
-        jpg_path = "d:\\test\\Mirror_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))  
-        pdf_path = "d:\\test\\Mirror_Server_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))  
-        txt_path = "d:\\test\\Mirror_Txz_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())) 
-        file_path = [jpg_path,pdf_path,txt_path]  #发送三个文件到两个邮箱  
+        Mirror_path = "d:\\test\\Mirror_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))
+        Server_path = "d:\\test\\Mirror_Server_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))
+        Txz_path = "d:\\test\\Mirror_Txz_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))
+
+        Amap_path = "d:\\test\\Amapautolite_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S', time.localtime(time.time()))
+        Kuwo_path = "d:\\test\\Kwmusiccar_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S', time.localtime(time.time()))
+        Webchat_path = "d:\\test\\Webchat_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S', time.localtime(time.time()))
+        file_path = [Mirror_path,Server_path,Txz_path,Amap_path,Kuwo_path,Webchat_path]  #发送三个文件到两个邮箱
         receive_email = ["317152347@QQ.com"]  
         Send_email_text(subject,content,file_path,receive_email)
         
@@ -244,7 +253,3 @@ while   time_end <= 259200:
  
     if time_end <=0:
         print("---------- END ----------")
-
-
-
-    
