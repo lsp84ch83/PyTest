@@ -184,6 +184,7 @@ lo_start_rx = lo_bck_start_rx + lo_front_start_rx
 lo_start_tx = lo_bck_start_tx + lo_front_start_tx
 
 i = 1
+time_k,time_s = 0
 
 while   time_end <= 259200:
 
@@ -200,7 +201,7 @@ while   time_end <= 259200:
     net_rx_kb, net_tx_kb = round(net_flow_rx / 1024, 3), round(net_flow_tx / 1024, 3)
     lo_rx_kb, lo_tx_kb = round(lo_flow_rx / 1024, 3), round(lo_flow_tx / 1024, 3)
 
-    timeNow = time.strftime('%Y-%m-%d   %H:%M:%S', time.localtime(time.time()))  # 获取当前时间
+    timeNow = time.strftime('%Y-%m-%d %H-%M', time.localtime(time.time()))  # 获取当前时间
 
     sheet_load_Mirror.write(row, col, timeNow)  # 写入时间
     sheet_load_Mirror.write(row, col + 1, net_rx_kb)  # 写入网络下行(KB)
@@ -209,47 +210,51 @@ while   time_end <= 259200:
     sheet_load_Mirror.write(row, col + 4, lo_rx_kb)  # 写入本地上行(KB)
     sheet_load_Mirror.write(row, col + 5, lo_tx_kb)  # 写入本地下行(KB)
     sheet_load_Mirror.write(row, col + 6, round(lo_rx_kb + lo_tx_kb, 3))  # 写入本地总流量(KB)
-    book_Mirror.save(r"d:\Mirror_Folw.xls")
-
-    print("---------- %s ----------" % row)
+    book_Mirror.save("d:\Mirror_Folw.xls")
+    print(" %s ---------- %s %s ----------" % (row, package_name_Mirror, timeNow))
     print(
           '网络下行：', net_rx_kb, 'KB\t',
           '网络上行：', net_tx_kb, 'KB\t',
           '网络总流量', round(net_rx_kb + net_tx_kb, 3), 'KB\t\t',
           '本地下行：', lo_rx_kb, 'KB\t',
           '本地上行：', lo_tx_kb, 'KB\t',
-          '本地总流量', round(lo_rx_kb + lo_tx_kb, 3), 'KB\t'
+          '本地总流量', round(lo_rx_kb + lo_tx_kb, 3), 'KB\t\n'
           )
 
-    if time_end == (900 * i):
-        shutil.copy("Mirror_Folw.xls", "d:\\test\\Mirror_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
-        shutil.copy("Mirror_Server_Folw.xls", "d:\\test\\Mirror_Server_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
-        shutil.copy("Mirror_Txz_Folw.xls", "d:\\test\\Mirror_Txz_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
-
-        shutil.copy("Amapautolite_Folw.xls", "d:\\test\\Amapautolite_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
-        shutil.copy("Kwmusiccar_Folw.xls", "d:\\test\\Kwmusiccar_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
-        shutil.copy("Webchat_Folw.xls", "d:\\test\\Webchat_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time())))
-
-
-        subject = "流量监测"  
-        content = "附件为后视镜产品相关APP的流量监测使用情况"  
-        Mirror_path = "d:\\test\\Mirror_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))
-        Server_path = "d:\\test\\Mirror_Server_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))
-        Txz_path = "d:\\test\\Mirror_Txz_Folw_%s.xls" %time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))
-
-        Amap_path = "d:\\test\\Amapautolite_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S', time.localtime(time.time()))
-        Kuwo_path = "d:\\test\\Kwmusiccar_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S', time.localtime(time.time()))
-        Webchat_path = "d:\\test\\Webchat_Folw_%s.xls" % time.strftime('%Y-%m-%d %H-%M-%S', time.localtime(time.time()))
-        file_path = [Mirror_path,Server_path,Txz_path,Amap_path,Kuwo_path,Webchat_path]  #发送三个文件到两个邮箱
-        receive_email = ["317152347@QQ.com"]  
-        Send_email_text(subject,content,file_path,receive_email)
-        
-        print("第%s个半小时保存备份成功" % str(i))
-        i += 1
-
-    row = row +1
+    row = row + 1
     time.sleep(10)  # 控制监测频率
-    time_end +=10
- 
-    if time_end <=0:
-        print("---------- END ----------")
+    time_end += 10
+    time_s += 10
+    time_k += 10
+
+    # 定时备份
+    if time_s == 300:
+        shutil.copy("Mirror_Folw.xls", "d:\\test\\Mirror_Folw_%s.xls" % timeNow)
+        shutil.copy("Mirror_Server_Folw.xls", "d:\\test\\Mirror_Server_Folw_%s.xls" % timeNow)
+        shutil.copy("Mirror_Txz_Folw.xls", "d:\\test\\Mirror_Txz_Folw_%s.xls" % timeNow)
+        shutil.copy("Amapautolite_Folw.xls", "d:\\test\\Amapautolite_Folw_%s.xls" % timeNow)
+        shutil.copy("Kwmusiccar_Folw.xls", "d:\\test\\Kwmusiccar_Folw_%s.xls" % timeNow)
+        shutil.copy("Webchat_Folw.xls", "d:\\test\\Webchat_Folw_%s.xls" % timeNow)
+        time_s = 0
+        print('备份成功~！')
+
+    try:
+        # 定时发送邮件
+        if time_end == (1800 * i):
+            subject = "流量监测-拆分协议"
+            content = "附件为后视镜拆分协议产品相关APP的流量监测使用情况"
+
+            Mirror_path = "d:\\test\\Mirror_Folw_%s.xls" % timeNow
+            Server_path = "d:\\test\\Mirror_Server_Folw_%s.xls" % timeNow
+            Txz_path = "d:\\test\\Mirror_Txz_Folw_%s.xls" % timeNow
+            Amap_path = "d:\\test\\Amapautolite_Folw_%s.xls" % timeNow
+            Kuwo_path = "d:\\test\\Kwmusiccar_Folw_%s.xls" % timeNow
+            Webchat_path = "d:\\test\\Webchat_Folw_%s.xls" % timeNow
+
+            file_path = [Mirror_path,Server_path,Txz_path,Amap_path,Kuwo_path,Webchat_path]  #发送三个文件到两个邮箱
+            receive_email = ["317152347@QQ.com"]
+            Send_email_text(subject,content,file_path,receive_email)
+            i += 1
+    except:
+        continue
+print("---------- END  统计时长：%s----------" % str(time_k))

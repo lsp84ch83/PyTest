@@ -59,7 +59,8 @@ def getFlowFromUid(packagename, uid=None):
     return sum(net_rcv_bck), sum(net_rcv_front), sum(net_snd_bck), sum(net_snd_front), \
             sum(lo_rcv_bck), sum(lo_rcv_front), sum(lo_snd_bck), sum(lo_snd_front)
 
-time_end =259200 # 72个小时时间，单位秒
+time_end = 0 # 72个小时时间，单位秒
+time_k = 0
 col =0
 row =0
 
@@ -95,7 +96,7 @@ net_start_tx = net_bck_start_tx + net_front_start_tx
 lo_start_rx = lo_bck_start_rx + lo_front_start_rx
 lo_start_tx = lo_bck_start_tx + lo_front_start_tx
 
-while   time_end > 0:
+while   time_end <= 259200:
 
     net_bck_end_rx, net_front_end_rx, net_bck_end_tx, net_front_end_tx, \
     lo_bck_end_rx, lo_front_end_rx, lo_bck_end_tx, lo_front_end_tx = getFlowFromUid(package_name_Mirror_Server, uid)
@@ -119,21 +120,21 @@ while   time_end > 0:
     sheet_load_Mirror_Server.write(row, col + 4, lo_rx_kb)  # 写入本地上行(KB)
     sheet_load_Mirror_Server.write(row, col + 5, lo_tx_kb)  # 写入本地下行(KB)
     sheet_load_Mirror_Server.write(row, col + 6, round(lo_rx_kb + lo_tx_kb, 3))  # 写入本地总流量(KB)
-    book_Mirror_Server.save(r"d:\Mirror_Server_Folw.xls")
+    book_Mirror_Server.save("d:\Mirror_Server_Folw.xls")
 
-    print("---------- %s ----------" % row)
+    print(" %s ---------- %s %s ----------" % (row, package_name_Mirror_Server, time.strftime('%Y-%m-%d %H-%M-%S', time.localtime(time.time()))))
     print(
           '网络下行：', net_rx_kb, 'KB\t',
           '网络上行：', net_tx_kb, 'KB\t',
           '网络总流量', round(net_rx_kb + net_tx_kb, 3), 'KB\t\t',
           '本地下行：', lo_rx_kb, 'KB\t',
           '本地上行：', lo_tx_kb, 'KB\t',
-          '本地总流量', round(lo_rx_kb + lo_tx_kb, 3), 'KB\t'
+          '本地总流量', round(lo_rx_kb + lo_tx_kb, 3), 'KB\t\n'
           )
 
     row = row +1
     time.sleep(10)  # 控制监测频率
-    time_end -=10
+    time_end +=10
+    time_k += 10
     s +=1
-    if time_end <=0:
-        print("---------- END ----------")
+print("---------- END  统计时长：%s----------" % str(time_k))
