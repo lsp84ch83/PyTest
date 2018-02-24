@@ -6,8 +6,8 @@
 # @license : Copyright(C), Your Company
 import unittest
 
-test_dir = r'f:\PyTest\Selenium\unittest\Structurization'
-discover = unittest.defaultTestLoader.discover(test_dir, pattern="test*.py")
+test_dir = r'f:\PyTest\Selenium\unittest'
+discover = unittest.defaultTestLoader.discover(test_dir, pattern="test*.py", top_level_dir= test_dir)
 
 if __name__ == "__main__":
     runner = unittest.TextTestRunner()
@@ -20,5 +20,5 @@ discover(start_dir, pattem='test*.py',  top_level_dir=None)
  
 •  start_dir:  要测试的模块名或测试用例目录, 当前目录用'./'表示
 •  pattem='test*.py':  表示用例文件名的匹配原则。此处匹配文件名以"test"开头的".py"类型的文件，星号"*"表示任意多个字符
-•  top_level_dir=None: 测试模块的顶层目录，如果没有顶层目录，默认为 None
+•  top_level_dir=None: 测试模块的顶层目录，如果没有顶层目录，默认为 None; 如果有顶层目录应为test_dir
 '''
