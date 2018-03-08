@@ -1,0 +1,164 @@
+{
+	"owner": "3836974",
+	"lastUpdatedBy": "3836974",
+	"lastRevision": 3351589679,
+	"team": null,
+	"id": "44f01534-e6ae-4240-a8e4-9dc863a9a803",
+	"name": "示例",
+	"description": "",
+	"variables": [],
+	"auth": null,
+	"events": null,
+	"folders_order": [],
+	"order": [
+		"ff58e760-f78e-4767-850b-9346bf75748e",
+		"8ddc46c8-9546-4de6-8a48-f3d8d664395b",
+		"d93a78c0-adf2-4704-b8cd-007ce1024a14"
+	],
+	"folders": [],
+	"hasRequests": true,
+	"requests": [
+		{
+			"folder": null,
+			"id": "8ddc46c8-9546-4de6-8a48-f3d8d664395b",
+			"name": "北京",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"联通状态码200\"] = responseCode.code === 200;",
+							"tests[\"包含Success !\"] = responseBody.has(\"Success !\");"
+						]
+					}
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "https://www.sojson.com/open/api/weather/json.shtml?city=北京",
+			"preRequestScript": null,
+			"tests": "tests[\"联通状态码200\"] = responseCode.code === 200;\ntests[\"包含Success !\"] = responseBody.has(\"Success !\");",
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [
+				{
+					"key": "city",
+					"value": "北京",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "44f01534-e6ae-4240-a8e4-9dc863a9a803"
+		},
+		{
+			"id": "d93a78c0-adf2-4704-b8cd-007ce1024a14",
+			"headers": "",
+			"headerData": [],
+			"url": "http://www.baidu.com/s?wd=postman",
+			"folder": null,
+			"queryParams": [
+				{
+					"key": "wd",
+					"value": "postman",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520496555056,
+			"name": "搜索",
+			"description": null,
+			"collectionId": "44f01534-e6ae-4240-a8e4-9dc863a9a803",
+			"responses": []
+		},
+		{
+			"folder": null,
+			"id": "ff58e760-f78e-4767-850b-9346bf75748e",
+			"name": "南京天气",
+			"dataMode": "params",
+			"data": null,
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b0a5651b-296f-4ca1-abdc-e938ee18e2da",
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"联通状态\"] = responseCode.code === 200;",
+							"tests[\"包含关键词\"] = responseBody.has(\"successed!\");",
+							"",
+							"",
+							"",
+							""
+						]
+					}
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{天气}}?cityname=%e5%8d%97%e4%ba%ac&dtype&format&key=6673397de3ba77ca83d73998692bb0d5",
+			"preRequestScript": null,
+			"tests": "tests[\"联通状态\"] = responseCode.code === 200;\ntests[\"包含关键词\"] = responseBody.has(\"successed!\");\n\n\n\n",
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [
+				{
+					"key": "cityname",
+					"value": "%e5%8d%97%e4%ba%ac",
+					"equals": true,
+					"enabled": true
+				},
+				{
+					"key": "dtype",
+					"value": "",
+					"equals": false,
+					"enabled": true
+				},
+				{
+					"key": "format",
+					"value": "",
+					"equals": false,
+					"enabled": true
+				},
+				{
+					"key": "key",
+					"value": "6673397de3ba77ca83d73998692bb0d5",
+					"equals": true,
+					"enabled": true
+				}
+			],
+			"headerData": [],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "44f01534-e6ae-4240-a8e4-9dc863a9a803"
+		}
+	]
+}
