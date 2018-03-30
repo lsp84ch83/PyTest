@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3f300e6-7dcc-487f-94d0-608ba1cee672" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Android单APP流量统计.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Updata V2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Updata V3.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/批量更新 V2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/批量更新 V3.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/流量监测/可导出/Mirror.py" afterPath="$PROJECT_DIR$/流量监测/可导出/Mirror.py" />
+    <list default="true" id="a3f300e6-7dcc-487f-94d0-608ba1cee672" name="Default" comment="默认">
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/db.sqlite3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/guest/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/guest/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/guest/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/guest/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/manage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/mysql_demo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/templates/event_manage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/templates/guest_manage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/templates/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/templates/sign_index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PyDj/guest/sign/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/正方形.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/PyText.iml" afterPath="$PROJECT_DIR$/.idea/PyText.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Android单APP流量统计.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,90 +35,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PyText$PanedWindow.coverage" NAME="PanedWindow三窗格 Coverage Results" MODIFIED="1509026304239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/空间管理组件" />
-    <SUITE FILE_PATH="coverage/PyTest$jk.coverage" NAME="jk Coverage Results" MODIFIED="1516203780374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyTest$test_baidu.coverage" NAME="test_baidu Coverage Results" MODIFIED="1514519827499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automated Testing" />
-    <SUITE FILE_PATH="coverage/PyText$py_test_for_test_TestCount_test_add2.coverage" NAME="py.test for test.TestCount.test_add2 Coverage Results" MODIFIED="1513243255152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
-    <SUITE FILE_PATH="coverage/PyText$Text.coverage" NAME="Text Coverage Results" MODIFIED="1509026713906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Menu菜单栏" />
-    <SUITE FILE_PATH="coverage/PyTest$Mirror.coverage" NAME="Mirror Coverage Results" MODIFIED="1516937916620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
-    <SUITE FILE_PATH="coverage/PyText$py_test_for_test_TestCount.coverage" NAME="py.test for test.TestCount Coverage Results" MODIFIED="1513241675220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
-    <SUITE FILE_PATH="coverage/PyText$user_info.coverage" NAME="user_info Coverage Results" MODIFIED="1513060801438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automatic" />
-    <SUITE FILE_PATH="coverage/PyTest$Kwmusiccar.coverage" NAME="Kwmusiccar Coverage Results" MODIFIED="1516937922246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
-    <SUITE FILE_PATH="coverage/PyText$get_screenshot_as_file.coverage" NAME="get_screenshot_as_file窗口截屏 Coverage Results" MODIFIED="1512446697144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyTest$py_test_in_test_baidu_py.coverage" NAME="py.test in test_baidu.py Coverage Results" MODIFIED="1514519950843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automated Testing" />
-    <SUITE FILE_PATH="coverage/PyText$Spinbox.coverage" NAME="Spinbox组件 Coverage Results" MODIFIED="1508945283071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Entry单行文本" />
-    <SUITE FILE_PATH="coverage/PyText$py_test_for_Entry___test.coverage" NAME="py.test for Entry(验证框输入验证功能).test Coverage Results" MODIFIED="1510061649215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Entry单行文本" />
-    <SUITE FILE_PATH="coverage/PyText$Js.coverage" NAME="Js警告框 Coverage Results" MODIFIED="1511163382650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyTest$1.coverage" NAME="1 Coverage Results" MODIFIED="1516177172872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyText$switch_to_frame.coverage" NAME="switch_to_frame切换内表单 Coverage Results" MODIFIED="1511149919686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyText$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1509531902101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyText$switch_to_window.coverage" NAME="switch_to_window切换多窗口 Coverage Results" MODIFIED="1511159378544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyTest$py_test_in_test_py.coverage" NAME="py.test in test.py Coverage Results" MODIFIED="1513322845363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
-    <SUITE FILE_PATH="coverage/PyText$Canvas_.coverage" NAME="Canvas绘图组件-随意画图 Coverage Results" MODIFIED="1508852658227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Canvas绘图组件" />
-    <SUITE FILE_PATH="coverage/PyText$sashrelief.coverage" NAME="sashrelief分割线 Coverage Results" MODIFIED="1509026601070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/空间管理组件" />
-    <SUITE FILE_PATH="coverage/PyText$ActionChains.coverage" NAME="ActionChains鼠标操作 Coverage Results" MODIFIED="1509609981465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyText$filedialog.coverage" NAME="filedialog文件对话框 Coverage Results" MODIFIED="1509462979557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/对话框模块" />
-    <SUITE FILE_PATH="coverage/PyText$fanyi.coverage" NAME="fanyi Coverage Results" MODIFIED="1510070367142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/PyTest$Mirror_Server.coverage" NAME="Mirror_Server Coverage Results" MODIFIED="1516937918820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
-    <SUITE FILE_PATH="coverage/PyText$Tolevel_.coverage" NAME="Tolevel组件-顶级窗口 Coverage Results" MODIFIED="1509027059519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Menu菜单栏" />
-    <SUITE FILE_PATH="coverage/PyTest$Webchat.coverage" NAME="Webchat Coverage Results" MODIFIED="1516937924043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
-    <SUITE FILE_PATH="coverage/PyText$test.coverage" NAME="test Coverage Results" MODIFIED="1510068449404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/PyText$.coverage" NAME="受控的飞机 Coverage Results" MODIFIED="1509978079154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyGameImage框架/FischC" />
-    <SUITE FILE_PATH="coverage/PyTest$testrun.coverage" NAME="testrun Coverage Results" MODIFIED="1513325729784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest/Structurization_discover" />
-    <SUITE FILE_PATH="coverage/PyText$Pack_.coverage" NAME="Pack按行-列排列组件 Coverage Results" MODIFIED="1509029285359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/布局管理器" />
-    <SUITE FILE_PATH="coverage/PyText$messagebox.coverage" NAME="messagebox Coverage Results" MODIFIED="1509462116854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/对话框模块" />
-    <SUITE FILE_PATH="coverage/PyText$py_test_for_unittest_test_TestCount.coverage" NAME="py.test for unittest.test.TestCount Coverage Results" MODIFIED="1513241636324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyText$colorchooser.coverage" NAME="colorchooser颜色选择对话框 Coverage Results" MODIFIED="1509464002755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/对话框模块" />
-    <SUITE FILE_PATH="coverage/PyTest$___.coverage" NAME="修改版 - 副本 Coverage Results" MODIFIED="1516789540709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/" />
-    <SUITE FILE_PATH="coverage/PyText$Message.coverage" NAME="Message文本组件 Coverage Results" MODIFIED="1508944799480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Label标签" />
-    <SUITE FILE_PATH="coverage/PyTest$py_test_for_test_TestSub_test_sub2.coverage" NAME="py.test for test.TestSub.test_sub2 Coverage Results" MODIFIED="1513321834632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
-    <SUITE FILE_PATH="coverage/PyTest$TXZ__1_.coverage" NAME="TXZ (1) Coverage Results" MODIFIED="1516586004980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
-    <SUITE FILE_PATH="coverage/PyText$WebZ.coverage" NAME="WebZ Coverage Results" MODIFIED="1509699350885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebZ轻量级自动化框架" />
-    <SUITE FILE_PATH="coverage/PyText$KeyPress.coverage" NAME="键盘事件KeyPress Coverage Results" MODIFIED="1508942771836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/事件绑定" />
-    <SUITE FILE_PATH="coverage/PyText$cookie.coverage" NAME="操作cookie Coverage Results" MODIFIED="1512460123954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
     <SUITE FILE_PATH="coverage/PyTest$12306.coverage" NAME="12306 Coverage Results" MODIFIED="1516075331264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/PyText$A.coverage" NAME="绘制哆啦A梦 Coverage Results" MODIFIED="1509590113062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Canvas绘图组件" />
-    <SUITE FILE_PATH="coverage/PyText$Entry.coverage" NAME="Entry Coverage Results" MODIFIED="1509030065081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Entry单行文本" />
-    <SUITE FILE_PATH="coverage/PyText$doutu.coverage" NAME="doutu Coverage Results" MODIFIED="1509287146640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/公开课/doutu" />
-    <SUITE FILE_PATH="coverage/PyTest$runtest.coverage" NAME="runtest Coverage Results" MODIFIED="1513586197040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
-    <SUITE FILE_PATH="coverage/PyTest$Mirror__1_.coverage" NAME="Mirror (1) Coverage Results" MODIFIED="1516362117444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测" />
-    <SUITE FILE_PATH="coverage/PyText$tiqnqi.coverage" NAME="tiqnqi Coverage Results" MODIFIED="1508858704999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/查询天气" />
-    <SUITE FILE_PATH="coverage/PyText$py_test_for_test_TestCount_test_add.coverage" NAME="py.test for test.TestCount.test_add Coverage Results" MODIFIED="1513241594372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyText$py_test_in_Entry___py.coverage" NAME="py.test in Entry(验证框输入验证功能).py Coverage Results" MODIFIED="1510061910117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Entry单行文本" />
-    <SUITE FILE_PATH="coverage/PyText$JS.coverage" NAME="JS滚动条 Coverage Results" MODIFIED="1511772247555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyText$mial_126__1_.coverage" NAME="mial.126 (1) Coverage Results" MODIFIED="1512553934781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automatic" />
-    <SUITE FILE_PATH="coverage/PyText$Clock.coverage" NAME="Clock设置帧率 Coverage Results" MODIFIED="1509975626476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyGameImage框架/FischC" />
-    <SUITE FILE_PATH="coverage/PyTest$AndroidAPP.coverage" NAME="Android单APP流量统计 Coverage Results" MODIFIED="1516272433553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测" />
-    <SUITE FILE_PATH="coverage/PyText$py_test_for_unittest_test_TestCount_test_add.coverage" NAME="py.test for unittest.test.TestCount.test_add Coverage Results" MODIFIED="1513241474607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyTest$.coverage" NAME="修改版 Coverage Results" MODIFIED="1516781617380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/" />
-    <SUITE FILE_PATH="coverage/PyText$Motion.coverage" NAME="获取鼠标实时位置Motion Coverage Results" MODIFIED="1508943149902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/事件绑定" />
-    <SUITE FILE_PATH="coverage/PyText$Menu.coverage" NAME="Menu顶级菜单 Coverage Results" MODIFIED="1508853891834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Menu菜单栏" />
-    <SUITE FILE_PATH="coverage/PyTest$amapautolite.coverage" NAME="amapautolite Coverage Results" MODIFIED="1516673299984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
     <SUITE FILE_PATH="coverage/PyTest$Amapautolite.coverage" NAME="Amapautolite Coverage Results" MODIFIED="1516937925765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
-    <SUITE FILE_PATH="coverage/PyTest$py_test_for_test_baidu_Baidu.coverage" NAME="py.test for test_baidu.Baidu Coverage Results" MODIFIED="1514519990660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automated Testing" />
-    <SUITE FILE_PATH="coverage/PyText$Size.coverage" NAME="Size设置窗口大小 Coverage Results" MODIFIED="1509591275518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyText$MenuButton.coverage" NAME="MenuButton菜单 Coverage Results" MODIFIED="1508861872056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Menu菜单栏" />
-    <SUITE FILE_PATH="coverage/PyText$Place.coverage" NAME="Place指定组件的大小和位置 Coverage Results" MODIFIED="1509031133772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/布局管理器" />
-    <SUITE FILE_PATH="coverage/PyTest$3.coverage" NAME="内部3 Coverage Results" MODIFIED="1516350949497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测" />
-    <SUITE FILE_PATH="coverage/PyText$TK.coverage" NAME="TK翻译 Coverage Results" MODIFIED="1510067598919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/PyText$HTML5.coverage" NAME="处理HTML5视频 Coverage Results" MODIFIED="1512444871491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$Entry.coverage" NAME="Entry Coverage Results" MODIFIED="1509030065081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Entry单行文本" />
+    <SUITE FILE_PATH="coverage/PyTest$amapautolite.coverage" NAME="amapautolite Coverage Results" MODIFIED="1516673299984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
+    <SUITE FILE_PATH="coverage/PyText$Menu.coverage" NAME="Menu顶级菜单 Coverage Results" MODIFIED="1508853891834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Menu菜单栏" />
+    <SUITE FILE_PATH="coverage/PyText$doutu.coverage" NAME="doutu Coverage Results" MODIFIED="1509287146640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/公开课/doutu" />
+    <SUITE FILE_PATH="coverage/PyText$tiqnqi.coverage" NAME="tiqnqi Coverage Results" MODIFIED="1508858704999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/查询天气" />
+    <SUITE FILE_PATH="coverage/PyText$user_info.coverage" NAME="user_info Coverage Results" MODIFIED="1513060801438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automatic" />
+    <SUITE FILE_PATH="coverage/PyText$cookie.coverage" NAME="操作cookie Coverage Results" MODIFIED="1512460123954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$py_test_for_test_TestCount_test_add.coverage" NAME="py.test for test.TestCount.test_add Coverage Results" MODIFIED="1513241594372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$Clock.coverage" NAME="Clock设置帧率 Coverage Results" MODIFIED="1509975626476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyGameImage框架/FischC" />
+    <SUITE FILE_PATH="coverage/PyText$doutuapp.coverage" NAME="doutuapp Coverage Results" MODIFIED="1509286991400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/公开课/doutu" />
+    <SUITE FILE_PATH="coverage/PyTest$___.coverage" NAME="修改版 - 副本 Coverage Results" MODIFIED="1516789540709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/" />
+    <SUITE FILE_PATH="coverage/PyTest$skier.coverage" NAME="skier Coverage Results" MODIFIED="1518077495616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/PyClass/Skier" />
+    <SUITE FILE_PATH="coverage/PyTest$Kwmusiccar.coverage" NAME="Kwmusiccar Coverage Results" MODIFIED="1516937922246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
+    <SUITE FILE_PATH="coverage/PyTest$test_baidu.coverage" NAME="test_baidu Coverage Results" MODIFIED="1514519827499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automated Testing" />
+    <SUITE FILE_PATH="coverage/PyTest$terun.coverage" NAME="terun Coverage Results" MODIFIED="1519466859186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/PyClass/except/ht" />
+    <SUITE FILE_PATH="coverage/PyTest$AndroidAPP.coverage" NAME="Android单APP流量统计 Coverage Results" MODIFIED="1516272433553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测" />
+    <SUITE FILE_PATH="coverage/PyTest$TXZ.coverage" NAME="TXZ Coverage Results" MODIFIED="1516937920728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
+    <SUITE FILE_PATH="coverage/PyText$sashrelief.coverage" NAME="sashrelief分割线 Coverage Results" MODIFIED="1509026601070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/空间管理组件" />
+    <SUITE FILE_PATH="coverage/PyText$Motion.coverage" NAME="获取鼠标实时位置Motion Coverage Results" MODIFIED="1508943149902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/事件绑定" />
+    <SUITE FILE_PATH="coverage/PyText$py_test_in_Entry___py.coverage" NAME="py.test in Entry(验证框输入验证功能).py Coverage Results" MODIFIED="1510061910117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Entry单行文本" />
     <SUITE FILE_PATH="coverage/PyText$py_test_in_test_py.coverage" NAME="py.test in test.py Coverage Results" MODIFIED="1513243574359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
-    <SUITE FILE_PATH="coverage/PyText$Variable.coverage" NAME="Variable下拉菜单 Coverage Results" MODIFIED="1508862243512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Menu菜单栏" />
-    <SUITE FILE_PATH="coverage/PyTest$copy.coverage" NAME="copy Coverage Results" MODIFIED="1516602694554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/" />
-    <SUITE FILE_PATH="coverage/PyText$Bind.coverage" NAME="Bind Coverage Results" MODIFIED="1508942480552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/事件绑定" />
+    <SUITE FILE_PATH="coverage/PyTest$1.coverage" NAME="1 Coverage Results" MODIFIED="1521706238365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/" />
+    <SUITE FILE_PATH="coverage/PyText$Place.coverage" NAME="Place指定组件的大小和位置 Coverage Results" MODIFIED="1509031133772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/布局管理器" />
+    <SUITE FILE_PATH="coverage/PyTest$py_test_in_test_py.coverage" NAME="py.test in test.py Coverage Results" MODIFIED="1513322845363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
+    <SUITE FILE_PATH="coverage/PyText$switch_to_window.coverage" NAME="switch_to_window切换多窗口 Coverage Results" MODIFIED="1511159378544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$HTML5.coverage" NAME="处理HTML5视频 Coverage Results" MODIFIED="1512444871491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$WebZ.coverage" NAME="WebZ Coverage Results" MODIFIED="1509699350885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebZ轻量级自动化框架" />
+    <SUITE FILE_PATH="coverage/PyTest$Listing_10_1.coverage" NAME="Listing_10-1 Coverage Results" MODIFIED="1518074003574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/PyClass/Skier" />
+    <SUITE FILE_PATH="coverage/PyText$switch_to_frame.coverage" NAME="switch_to_frame切换内表单 Coverage Results" MODIFIED="1511149919686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$A.coverage" NAME="绘制哆啦A梦 Coverage Results" MODIFIED="1509590113062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Canvas绘图组件" />
+    <SUITE FILE_PATH="coverage/PyText$mial_126__1_.coverage" NAME="mial.126 (1) Coverage Results" MODIFIED="1512553934781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automatic" />
+    <SUITE FILE_PATH="coverage/PyTest$mysql_demo.coverage" NAME="mysql_demo Coverage Results" MODIFIED="1522319454853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyDj/guest" />
+    <SUITE FILE_PATH="coverage/PyText$test.coverage" NAME="test Coverage Results" MODIFIED="1510068449404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/PyTest$Mirror_Server__1_.coverage" NAME="Mirror_Server (1) Coverage Results" MODIFIED="1516619095264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
+    <SUITE FILE_PATH="coverage/PyText$KeyPress.coverage" NAME="键盘事件KeyPress Coverage Results" MODIFIED="1508942771836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/事件绑定" />
+    <SUITE FILE_PATH="coverage/PyText$Spinbox.coverage" NAME="Spinbox组件 Coverage Results" MODIFIED="1508945283071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Entry单行文本" />
+    <SUITE FILE_PATH="coverage/PyText$ActionChains.coverage" NAME="ActionChains鼠标操作 Coverage Results" MODIFIED="1509609981465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$Grid_.coverage" NAME="Grid按行-列形式排列组件 Coverage Results" MODIFIED="1509460767890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/布局管理器" />
+    <SUITE FILE_PATH="coverage/PyTest$re.coverage" NAME="re Coverage Results" MODIFIED="1519460622679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/PyClass/except/ht" />
+    <SUITE FILE_PATH="coverage/PyTest$mail.coverage" NAME="mail Coverage Results" MODIFIED="1516613844801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/" />
+    <SUITE FILE_PATH="coverage/PyText$Canvas_.coverage" NAME="Canvas绘图组件-随意画图 Coverage Results" MODIFIED="1508852658227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Canvas绘图组件" />
+    <SUITE FILE_PATH="coverage/PyText$TK.coverage" NAME="TK翻译 Coverage Results" MODIFIED="1510067598919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/PyTest$py_test_in_test_baidu_py.coverage" NAME="py.test in test_baidu.py Coverage Results" MODIFIED="1514519950843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automated Testing" />
+    <SUITE FILE_PATH="coverage/PyTest$py_test_for_test_baidu_Baidu.coverage" NAME="py.test for test_baidu.Baidu Coverage Results" MODIFIED="1514519990660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automated Testing" />
+    <SUITE FILE_PATH="coverage/PyTest$py_test_for_test_TestSub_test_sub2.coverage" NAME="py.test for test.TestSub.test_sub2 Coverage Results" MODIFIED="1513321834632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
+    <SUITE FILE_PATH="coverage/PyText$py_test_for_unittest_test_TestCount_test_add.coverage" NAME="py.test for unittest.test.TestCount.test_add Coverage Results" MODIFIED="1513241474607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyTest$Mirror.coverage" NAME="Mirror Coverage Results" MODIFIED="1516937916620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
+    <SUITE FILE_PATH="coverage/PyText$py_test_for_test_TestCount_test_add2.coverage" NAME="py.test for test.TestCount.test_add2 Coverage Results" MODIFIED="1513243255152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
+    <SUITE FILE_PATH="coverage/PyText$get_screenshot_as_file.coverage" NAME="get_screenshot_as_file窗口截屏 Coverage Results" MODIFIED="1512446697144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyTest$Webchat.coverage" NAME="Webchat Coverage Results" MODIFIED="1516937924043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
+    <SUITE FILE_PATH="coverage/PyTest$tsrun.coverage" NAME="tsrun Coverage Results" MODIFIED="1519467470823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/PyClass/except/ht" />
+    <SUITE FILE_PATH="coverage/PyText$py_test_for_test_TestCount.coverage" NAME="py.test for test.TestCount Coverage Results" MODIFIED="1513241675220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
+    <SUITE FILE_PATH="coverage/PyText$mial_126.coverage" NAME="mial.126 Coverage Results" MODIFIED="1512553379521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automatic test model" />
+    <SUITE FILE_PATH="coverage/PyText$_.coverage" NAME="浏览器的前进+后退 Coverage Results" MODIFIED="1509594401394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyTest$testrun.coverage" NAME="testrun Coverage Results" MODIFIED="1519458880182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest/Structurization_discover" />
+    <SUITE FILE_PATH="coverage/PyText$messagebox.coverage" NAME="messagebox Coverage Results" MODIFIED="1509462116854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/对话框模块" />
+    <SUITE FILE_PATH="coverage/PyText$colorchooser.coverage" NAME="colorchooser颜色选择对话框 Coverage Results" MODIFIED="1509464002755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/对话框模块" />
+    <SUITE FILE_PATH="coverage/PyTest$Test14_6.coverage" NAME="Test14-6 Coverage Results" MODIFIED="1518424098513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/PyClass" />
+    <SUITE FILE_PATH="coverage/PyText$MenuButton.coverage" NAME="MenuButton菜单 Coverage Results" MODIFIED="1508861872056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Menu菜单栏" />
+    <SUITE FILE_PATH="coverage/PyText$QQ.coverage" NAME="QQ邮箱登录 Coverage Results" MODIFIED="1509601773276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$Size.coverage" NAME="Size设置窗口大小 Coverage Results" MODIFIED="1509591275518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$Tolevel_.coverage" NAME="Tolevel组件-顶级窗口 Coverage Results" MODIFIED="1509027059519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Menu菜单栏" />
+    <SUITE FILE_PATH="coverage/PyTest$.coverage" NAME="修改版 Coverage Results" MODIFIED="1516781617380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/" />
+    <SUITE FILE_PATH="coverage/PyText$Message.coverage" NAME="Message文本组件 Coverage Results" MODIFIED="1508944799480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Label标签" />
+    <SUITE FILE_PATH="coverage/PyTest$TXZ__1_.coverage" NAME="TXZ (1) Coverage Results" MODIFIED="1516586004980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
+    <SUITE FILE_PATH="coverage/PyTest$2.coverage" NAME="2 Coverage Results" MODIFIED="1516787781716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/" />
+    <SUITE FILE_PATH="coverage/PyText$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1509531902101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyTest$Mirror__1_.coverage" NAME="Mirror (1) Coverage Results" MODIFIED="1516362117444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测" />
+    <SUITE FILE_PATH="coverage/PyText$PanedWindow.coverage" NAME="PanedWindow三窗格 Coverage Results" MODIFIED="1509026304239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/空间管理组件" />
+    <SUITE FILE_PATH="coverage/PyText$Show__.coverage" NAME="Show(密码星号) Coverage Results" MODIFIED="1510066847030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Label标签" />
+    <SUITE FILE_PATH="coverage/PyTest$jk.coverage" NAME="jk Coverage Results" MODIFIED="1516203780374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyText$py_test_for_Entry___test.coverage" NAME="py.test for Entry(验证框输入验证功能).test Coverage Results" MODIFIED="1510061649215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Entry单行文本" />
+    <SUITE FILE_PATH="coverage/PyText$Bind.coverage" NAME="Bind Coverage Results" MODIFIED="1508942480552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/事件绑定" />
+    <SUITE FILE_PATH="coverage/PyText$fanyi.coverage" NAME="fanyi Coverage Results" MODIFIED="1510070367142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/PyTest$runtest.coverage" NAME="runtest Coverage Results" MODIFIED="1513586197040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
+    <SUITE FILE_PATH="coverage/PyText$py_test_for_unittest_test_TestCount.coverage" NAME="py.test for unittest.test.TestCount Coverage Results" MODIFIED="1513241636324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$Variable.coverage" NAME="Variable下拉菜单 Coverage Results" MODIFIED="1508862243512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Menu菜单栏" />
+    <SUITE FILE_PATH="coverage/PyText$.coverage" NAME="受控的飞机 Coverage Results" MODIFIED="1509978079154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyGameImage框架/FischC" />
+    <SUITE FILE_PATH="coverage/PyTest$Test12_1.coverage" NAME="Test12-1 Coverage Results" MODIFIED="1518159621494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/PyClass" />
     <SUITE FILE_PATH="coverage/PyTest$Python.coverage" NAME="用Python抢火车票完整源代码 Coverage Results" MODIFIED="1516075009255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/PyText$Checkbox.coverage" NAME="Checkbox定位一组元素 Coverage Results" MODIFIED="1510816911794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$filedialog.coverage" NAME="filedialog文件对话框 Coverage Results" MODIFIED="1509462979557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/对话框模块" />
+    <SUITE FILE_PATH="coverage/PyTest$copy.coverage" NAME="copy Coverage Results" MODIFIED="1516602694554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/" />
+    <SUITE FILE_PATH="coverage/PyTest$Mirror_Server.coverage" NAME="Mirror_Server Coverage Results" MODIFIED="1516937918820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
+    <SUITE FILE_PATH="coverage/PyText$Pack_.coverage" NAME="Pack按行-列排列组件 Coverage Results" MODIFIED="1509029285359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/布局管理器" />
+    <SUITE FILE_PATH="coverage/PyText$JS.coverage" NAME="JS滚动条 Coverage Results" MODIFIED="1511772247555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyTest$3.coverage" NAME="内部3 Coverage Results" MODIFIED="1516350949497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测" />
+    <SUITE FILE_PATH="coverage/PyText$Js.coverage" NAME="Js警告框 Coverage Results" MODIFIED="1511163382650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
+    <SUITE FILE_PATH="coverage/PyText$Text.coverage" NAME="Text Coverage Results" MODIFIED="1509026713906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Menu菜单栏" />
     <SUITE FILE_PATH="coverage/PyTest$py_test_for_test_TestSub.coverage" NAME="py.test for test.TestSub Coverage Results" MODIFIED="1513322043636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/unittest" />
-    <SUITE FILE_PATH="coverage/PyText$doutuapp.coverage" NAME="doutuapp Coverage Results" MODIFIED="1509286991400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/公开课/doutu" />
-    <SUITE FILE_PATH="coverage/PyText$mial_126.coverage" NAME="mial.126 Coverage Results" MODIFIED="1512553379521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium/Automatic test model" />
-    <SUITE FILE_PATH="coverage/PyText$QQ.coverage" NAME="QQ邮箱登录 Coverage Results" MODIFIED="1509601773276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyText$_.coverage" NAME="浏览器的前进+后退 Coverage Results" MODIFIED="1509594401394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Selenium" />
-    <SUITE FILE_PATH="coverage/PyTest$2.coverage" NAME="2 Coverage Results" MODIFIED="1516787781716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/" />
-    <SUITE FILE_PATH="coverage/PyTest$TXZ.coverage" NAME="TXZ Coverage Results" MODIFIED="1516937920728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/流量监测/可导出" />
-    <SUITE FILE_PATH="coverage/PyTest$mail.coverage" NAME="mail Coverage Results" MODIFIED="1516613844801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/" />
-    <SUITE FILE_PATH="coverage/PyText$Show__.coverage" NAME="Show(密码星号) Coverage Results" MODIFIED="1510066847030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/Label标签" />
-    <SUITE FILE_PATH="coverage/PyText$Grid_.coverage" NAME="Grid按行-列形式排列组件 Coverage Results" MODIFIED="1509460767890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter GUI图形框架/布局管理器" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -116,13 +141,122 @@
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDj/guest/guest/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="40" column="15" lean-forward="false" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDj/guest/guest/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDj/guest/guest/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="113" column="76" lean-forward="false" selection-start-line="113" selection-start-column="76" selection-end-line="113" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/templates/sign_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guest_manage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/templates/guest_manage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="738">
+              <caret line="92" column="51" lean-forward="false" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event_manage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/templates/event_manage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -150,29 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Selenium/自动化测试模型/mial.126.py" />
-        <option value="$PROJECT_DIR$/Selenium/Automatic test model/public.py" />
-        <option value="$PROJECT_DIR$/Selenium/Automatic test model/mial.126.py" />
-        <option value="$PROJECT_DIR$/Selenium/Automatic/public.py" />
-        <option value="$PROJECT_DIR$/Selenium/Automatic/mial.126.py" />
-        <option value="$PROJECT_DIR$/Selenium/Automatic/info.xml" />
-        <option value="$PROJECT_DIR$/Selenium/Automatic/user_info.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/010.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/calculator.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/test.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/testadd.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/testsub.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/Structurization/runtest.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/Structurization_discover/testrun.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/Structurization/testadd.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/Structurization/testsub.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/baidu.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/test_case/test_baidu.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/test_case/test_youdao.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/runtest.py" />
-        <option value="$PROJECT_DIR$/Selenium/unittest/保存log" />
-        <option value="$PROJECT_DIR$/Selenium/Automated Testing/test_baidu.py" />
-        <option value="$PROJECT_DIR$/爬虫/12306.py" />
         <option value="$PROJECT_DIR$/爬虫/用Python抢火车票完整源代码.py" />
         <option value="$PROJECT_DIR$/流量统计.py" />
         <option value="$PROJECT_DIR$/jk.py" />
@@ -201,6 +312,29 @@
         <option value="$PROJECT_DIR$/流量监测/可导出/TXZ.py" />
         <option value="$PROJECT_DIR$/流量监测/可导出/Mirror_Server.py" />
         <option value="$PROJECT_DIR$/流量监测/可导出/Mirror.py" />
+        <option value="G:/PyClass/Skier/Listing_10-1.py" />
+        <option value="G:/PyClass/Skier/skier.py" />
+        <option value="G:/PyClass/Test12-1.py" />
+        <option value="G:/PyClass/Test14-6.py" />
+        <option value="G:/PyClass/except/ht/re.py" />
+        <option value="G:/PyClass/except/ht/HTMLTestRunnerCN.py" />
+        <option value="G:/PyClass/except/ht/tsrun.py" />
+        <option value="G:/PyClass/except/ht/terun.py" />
+        <option value="G:/PyClass/except/__init__.py" />
+        <option value="G:/PyClass/except/py_excep/__init__.py" />
+        <option value="$PROJECT_DIR$/Selenium/unittest/Structurization_discover/testrun.py" />
+        <option value="G:/1.py" />
+        <option value="$PROJECT_DIR$/PyDj/guest/sign/templates/index.html" />
+        <option value="$PROJECT_DIR$/PyDj/guest/sign/models.py" />
+        <option value="$PROJECT_DIR$/PyDj/guest/sign/admin.py" />
+        <option value="$PROJECT_DIR$/PyDj/guest/mysql_demo.py" />
+        <option value="$PROJECT_DIR$/PyDj/guest/guest/__init__.py" />
+        <option value="$PROJECT_DIR$/PyDj/guest/guest/settings.py" />
+        <option value="$PROJECT_DIR$/PyDj/guest/sign/templates/event_manage.html" />
+        <option value="$PROJECT_DIR$/PyDj/guest/sign/templates/sign_index.html" />
+        <option value="$PROJECT_DIR$/PyDj/guest/guest/urls.py" />
+        <option value="$PROJECT_DIR$/PyDj/guest/sign/templates/guest_manage.html" />
+        <option value="$PROJECT_DIR$/PyDj/guest/sign/views.py" />
       </list>
     </option>
   </component>
@@ -211,10 +345,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
+    <option name="x" value="1359" />
+    <option name="y" value="-241" />
     <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="height" value="1186" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -274,6 +408,39 @@
               <item name="PyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PyTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="PyDj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="PyDj" type="462c0819:PsiDirectoryNode" />
+              <item name="guest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="PyDj" type="462c0819:PsiDirectoryNode" />
+              <item name="guest" type="462c0819:PsiDirectoryNode" />
+              <item name="guest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="PyDj" type="462c0819:PsiDirectoryNode" />
+              <item name="guest" type="462c0819:PsiDirectoryNode" />
+              <item name="sign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="PyDj" type="462c0819:PsiDirectoryNode" />
+              <item name="guest" type="462c0819:PsiDirectoryNode" />
+              <item name="sign" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -282,10 +449,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/修改版.py" />
+    <property name="last_opened_file_path" value="G:/1.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="nodejs_interpreter_path" value="E:/Program Files/nodejs/node" />
+    <property name="two.files.diff.last.used.file" value="G:/PyClass/except/ht/tsrun.py" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -297,11 +465,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\PyClass\except\py_excep" />
+      <recent name="G:\PyClass\except" />
+      <recent name="G:\PyClass\except\ht" />
       <recent name="F:\PyTest\流量监测\可导出" />
       <recent name="F:\PyTest\流量监测" />
-      <recent name="F:\PyTest\爬虫" />
-      <recent name="F:\PyTest\Selenium\unittest\Structurization" />
-      <recent name="F:\PyText\Selenium\Web元素定位及操作" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\PyTest\流量监测\可导出" />
@@ -322,96 +490,83 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Amapautolite">
-    <configuration name="Amapautolite" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mysql_demo">
+    <configuration name="event_manage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:50724/PyTest/PyDj/guest/sign/templates/event_manage.html" />
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/流量监测/可导出" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="G:/" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyText" />
+      <module name="PyClass" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/流量监测/可导出/Amapautolite.py" />
+      <option name="SCRIPT_NAME" value="G:/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Kwmusiccar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mysql_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/流量监测/可导出" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyDj/guest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyText" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/流量监测/可导出/Kwmusiccar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyDj/guest/mysql_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Mirror_Server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="terun" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/流量监测/可导出" />
+      <option name="WORKING_DIRECTORY" value="G:/PyClass/except/ht" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyText" />
+      <module name="PyClass" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/流量监测/可导出/Mirror_Server.py" />
+      <option name="SCRIPT_NAME" value="G:/PyClass/except/ht/terun.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="TXZ" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tsrun" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/流量监测/可导出" />
+      <option name="WORKING_DIRECTORY" value="G:/PyClass/except/ht" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyText" />
+      <module name="PyClass" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/流量监测/可导出/TXZ.py" />
+      <option name="SCRIPT_NAME" value="G:/PyClass/except/ht/tsrun.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Webchat" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/流量监测/可导出" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyText" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/流量监测/可导出/Webchat.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -462,19 +617,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Mirror_Server" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TXZ" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Kwmusiccar" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Webchat" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Amapautolite" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tsrun" />
+      <item index="1" class="java.lang.String" itemvalue="Python.terun" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mysql_demo" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.event_manage.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Amapautolite" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Webchat" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Kwmusiccar" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TXZ" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Mirror_Server" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mysql_demo" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.event_manage.html" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tsrun" />
+        <item index="4" class="java.lang.String" itemvalue="Python.terun" />
       </list>
     </recent_temporary>
   </component>
@@ -491,41 +646,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508844053508</updated>
-    </task>
-    <task id="LOCAL-00013" summary="默认">
-      <created>1509698884125</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1509698884125</updated>
-    </task>
-    <task id="LOCAL-00014" summary="默认">
-      <created>1509699496327</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1509699496327</updated>
-    </task>
-    <task id="LOCAL-00015" summary="默认">
-      <created>1509977456719</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1509977456719</updated>
-    </task>
-    <task id="LOCAL-00016" summary="默认">
-      <created>1510112854065</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1510112854065</updated>
-    </task>
-    <task id="LOCAL-00017" summary="默认">
-      <created>1510801649086</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1510801649086</updated>
     </task>
     <task id="LOCAL-00018" summary="默认">
       <created>1510801851280</created>
@@ -835,7 +955,42 @@
       <option name="project" value="LOCAL" />
       <updated>1516937573784</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="默认">
+      <created>1517924978855</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1517924978855</updated>
+    </task>
+    <task id="LOCAL-00063" summary="默认">
+      <created>1519458423472</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1519458423473</updated>
+    </task>
+    <task id="LOCAL-00064" summary="默认">
+      <created>1519467430353</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1519467430353</updated>
+    </task>
+    <task id="LOCAL-00065" summary="默认">
+      <created>1520509400839</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1520509400840</updated>
+    </task>
+    <task id="LOCAL-00066" summary="默认">
+      <created>1520509663764</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1520509663765</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -880,30 +1035,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1358" y="-249" width="1936" height="1186" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="548" y="69" width="270" height="599" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7521079" sideWeight="0.5060514" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9544688" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" x="27" y="88" width="1322" height="559" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25801012" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22341463" sideWeight="0.50692964" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25801012" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32546374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22341463" sideWeight="0.49307036" order="2" side_tool="false" content_ui="tabs" x="27" y="88" width="1322" height="559" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3642496" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49072513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10607676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="548" y="69" width="270" height="599" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49072513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28355706" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4856661" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -964,39 +1121,83 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Selenium/Automatic/public.py">
+    <entry file="file://F:/修改版.py" />
+    <entry file="file://F:/2.py" />
+    <entry file="file://F:/修改版 - 副本.py" />
+    <entry file="file://$PROJECT_DIR$/流量监测/可导出/Mirror.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="18">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="129" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Selenium/Automatic/user_info.py">
+    <entry file="file://$PROJECT_DIR$/流量监测/可导出/Mirror_Server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="333">
+          <caret line="116" column="12" lean-forward="false" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Selenium/Automatic/info.xml">
+    <entry file="file://$PROJECT_DIR$/流量监测/可导出/TXZ.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="333">
+          <caret line="116" column="25" lean-forward="false" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Program Files/Python36/Lib/unittest/case.py">
+    <entry file="file://$PROJECT_DIR$/流量监测/可导出/Kwmusiccar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="446" column="8" lean-forward="false" selection-start-line="446" selection-start-column="8" selection-end-line="446" selection-end-column="8" />
+        <state relative-caret-position="333">
+          <caret line="116" column="35" lean-forward="false" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Selenium/unittest/010.py" />
-    <entry file="file://$PROJECT_DIR$/Selenium/unittest/test.py">
+    <entry file="file://$PROJECT_DIR$/流量监测/可导出/Webchat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="351">
+          <caret line="117" column="51" lean-forward="false" selection-start-line="117" selection-start-column="51" selection-end-line="117" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/流量监测/可导出/Amapautolite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="116" column="67" lean-forward="false" selection-start-line="116" selection-start-column="67" selection-end-line="116" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/PyClass/Skier/Listing_10-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/PyClass/Skier/skier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="125" column="55" lean-forward="false" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/PyClass/Test12-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1514532798/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="809" column="8" lean-forward="false" selection-start-line="809" selection-start-column="8" selection-end-line="809" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/PyClass/Test14-6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1007,6 +1208,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Selenium/unittest/test_case/test_youdao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Selenium/unittest/Structurization/runtest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1014,26 +1222,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Selenium/unittest/Structurization_discover/testadd.py" />
-    <entry file="file://$PROJECT_DIR$/Selenium/unittest/Structurization/testadd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Selenium/unittest/Structurization/testsub.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Selenium/unittest/baidu.py" />
-    <entry file="file://$PROJECT_DIR$/Selenium/unittest/Structurization_discover/testrun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1046,181 +1238,194 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Selenium/unittest/test_case/test_baidu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="153">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Selenium/unittest/test_case/test_youdao.py">
+    <entry file="file://$PROJECT_DIR$/Selenium/unittest/Structurization/testadd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="399">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Selenium/unittest/保存log" />
+    <entry file="file://$PROJECT_DIR$/Selenium/unittest/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebZ轻量级自动化框架/WebZ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebZ轻量级自动化框架/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebZ轻量级自动化框架/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebZ轻量级自动化框架/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebZ轻量级自动化框架/keywords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/修改版.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/PyClass/except/ht/HTMLTestRunnerCN.py" />
+    <entry file="file://$PROJECT_DIR$/Android单APP流量统计.py" />
+    <entry file="file://G:/PyClass/Test6-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/PyClass/except/ht/__init__.py" />
+    <entry file="file://G:/PyClass/except/__init__.py" />
+    <entry file="file://G:/PyClass/except/py_excep/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Selenium/Automated Testing/test_baidu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬虫/12306.py" />
-    <entry file="file://$PROJECT_DIR$/爬虫/用Python抢火车票完整源代码.py">
+    <entry file="file://$PROJECT_DIR$/Selenium/unittest/Structurization_discover/testrun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="121" column="16" lean-forward="false" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+        <state relative-caret-position="324">
+          <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jk.py" />
-    <entry file="file://$PROJECT_DIR$/流量监测/Anroid流量监测.py" />
-    <entry file="file://$PROJECT_DIR$/流量监测/流量统计.py" />
-    <entry file="file://$PROJECT_DIR$/批量更新 V3.py">
+    <entry file="file://G:/PyClass/except/ht/terun.py" />
+    <entry file="file://G:/PyClass/except/ht/tsrun.py" />
+    <entry file="file://G:/1.py" />
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/内部复件.py" />
-    <entry file="file://$PROJECT_DIR$/流量监测/1.py">
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/mysql_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/guest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/流量监测/TXZ.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="110" column="20" lean-forward="false" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/流量监测/Mirror_Server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/内部复件2.py" />
-    <entry file="file://$PROJECT_DIR$/流量监测/Android多APP流量监测.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/流量监测/内部.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1599">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.py" />
-    <entry file="file://$PROJECT_DIR$/流量监测/Android单APP流量统计.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="119" column="4" lean-forward="false" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/流量监测/Mirror.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="100" column="67" lean-forward="true" selection-start-line="100" selection-start-column="67" selection-end-line="100" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/copy.py" />
-    <entry file="file://$PROJECT_DIR$/Selenium/Automatic/mial.126.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Selenium/Web元素定位及操作/QQ邮箱登录.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/mail.py" />
-    <entry file="file://$PROJECT_DIR$/Excle.py" />
-    <entry file="file://E:/Program Files/Python36/Lib/test/test_ssl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="2028" column="12" lean-forward="false" selection-start-line="2028" selection-start-column="12" selection-end-line="2028" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Program Files/Python36/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="852" column="18" lean-forward="true" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/修改版.py" />
-    <entry file="file://F:/2.py" />
-    <entry file="file://F:/修改版 - 副本.py" />
-    <entry file="file://$PROJECT_DIR$/修改版.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="246" column="64" lean-forward="false" selection-start-line="246" selection-start-column="12" selection-end-line="246" selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/流量监测/可导出/Mirror.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="129" selection-end-column="34" />
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/流量监测/可导出/Mirror_Server.py">
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="116" column="12" lean-forward="false" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+        <state relative-caret-position="108">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/流量监测/可导出/TXZ.py">
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/guest/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="116" column="25" lean-forward="false" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+        <state relative-caret-position="396">
+          <caret line="40" column="15" lean-forward="false" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/流量监测/可导出/Kwmusiccar.py">
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/templates/sign_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="116" column="35" lean-forward="false" selection-start-line="116" selection-start-column="35" selection-end-line="116" selection-end-column="35" />
+        <state relative-caret-position="720">
+          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/templates/event_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/guest/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/流量监测/可导出/Webchat.py">
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/templates/guest_manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="117" column="51" lean-forward="false" selection-start-line="117" selection-start-column="51" selection-end-line="117" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="738">
+          <caret line="92" column="51" lean-forward="false" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/流量监测/可导出/Amapautolite.py">
+    <entry file="file://$PROJECT_DIR$/PyDj/guest/sign/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="116" column="67" lean-forward="false" selection-start-line="116" selection-start-column="67" selection-end-line="116" selection-end-column="67" />
+        <state relative-caret-position="867">
+          <caret line="113" column="76" lean-forward="false" selection-start-line="113" selection-start-column="76" selection-end-line="113" selection-end-column="76" />
           <folding />
         </state>
       </provider>
