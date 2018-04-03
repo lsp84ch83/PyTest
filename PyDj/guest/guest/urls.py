@@ -29,6 +29,7 @@ urlpatterns = [
     url(r'^search_rename/$', views.search_rename),      # 添加 搜索search_realname 路径配置
     url(r'^sign_index/(?P<eid>[0-9]+)/$', views.sign_index),     # 添加 sign_index 签到 路径配置
     url(r'^sign_index_action/(?P<eid>[0-9]+)/$', views.sign_index_action),  # 添加 sign_index_action 签到动作 路径配置
+    url(r'^logout/$', views.logout),     # 添加 logout 退出路径配置
 
 
 ]

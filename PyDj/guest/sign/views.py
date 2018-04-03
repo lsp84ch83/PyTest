@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+'''
+@Author  : Soner
+@version :
+@Time    : 2017/11/3/0003 15:11
+@license : Copyright(C), Your Company
+'''
+
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib import auth
@@ -60,15 +69,15 @@ def sign_index_action(request, eid):
     result = Guest.objects.filter(phone = phone)
     if not result:
         return render(request, 'sign_index.html', {'event': event,
-                                                   'hint': '手机号不存在.'})
+                                                   'hint': '手机号不存在'})
     result = Guest.objects.filter(phone = phone, event_id = eid)
     if not result:
         return render(request, 'sign_index.html', {'event': event,
-                                                   'hint': '未参与的手机号.'})
+                                                   'hint': '发布会id与手机号不匹配'})
     result = Guest.objects.get(phone = phone, event_id = eid)
     if result.sign:
         return render(request, 'sign_index.html', {'event': event,
-                                                   'hint': '重复签到.'})
+                                                   'hint': '用户已签到'})
     else:
         Guest.objects.filter(phone = phone, event_id = eid).update(sign = '1')
         return render(request, 'sign_index.html', {'event': event,
@@ -112,3 +121,11 @@ def search_rename(request):
     return  render(request, 'guest_manage.html', {'user': username,
                                                   'guests': contacts,
                                                   'search_rename': search_rename})  # 返回搜索关键词
+
+
+# 退出
+@login_required
+def logout(request):
+    auth.logout(request) # 退出
+    response = HttpResponseRedirect('/logout/')
+    return response
