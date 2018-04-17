@@ -1,0 +1,6 @@
+[
+  "test.py::TestAdd::test_add",
+  "test.py::TestAdd::test_add2",
+  "test.py::TestSub::test_sub",
+  "test.py::TestSub::test_sub2"
+]

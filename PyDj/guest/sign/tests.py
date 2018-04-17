@@ -101,25 +101,24 @@ class EventMangeTest(TestCase):
 class GuestManageTest(TestCase):
     # 嘉宾管理
     def setUp(self):
+        '''还是使用setUp初始化一些测试数据'''
         User.objects.create_user('admin', 'admin@mail.com', 'admin123456')
-        Event.objects.create(id = 1, name = 'xiaomi5', limit = 2000, address = 'beijing',
-                             status = 1, start_time = '2018-4-3 18:11:00')
-        Guest.objects.create(realname = 'alen', phone = 18611001100, email = 'alen@mail.com',
-                             sign = 0, event_id =1)
-        self.login_user = { 'username':'admin', 'password':'admin123456' }
+        Event.objects.create(id=1, name='xiaomi5', limit=2000, address='beijing', status=1, start_time='2017-08-10 12:30:00')
+        Guest.objects.create(realname='alen', phone=18611001100, email='alen@mail.com', sign=0, event_id=1)
+        self.login_user = {'username':'admin', 'password':'admin123456'}
 
-    def test_event_mange_success(self):
-        # 测试嘉宾茜茜：alen
-        response = self.client.post('/login_action/', data = self.login_user)
+    def test_event_manage_success(self):
+        '''测试嘉宾信息：alen'''
+        response = self.client.post('/login_action/', data=self.login_user)
         response = self.client.post('/guest_manage/')
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'alen', response.content)
         self.assertIn(b'18611001100', response.content)
 
-    def test_guest_manage_sreach_success(self):
-        # 测试嘉宾搜索
-        response = self.client.post('login_action/', data = self.login_user)
-        response = self.client.post('/search_phone/', { 'phone':'18611001100' })
+    def test_guest_manage_search_success(self):
+        '''测试嘉宾搜索功能'''
+        response = self.client.post('/login_action/', data=self.login_user)
+        response = self.client.post('/search_rename/', {'realname':'alen'})
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'alen', response.content)
         self.assertIn(b'18611001100', response.content)
@@ -144,4 +143,26 @@ class SignIndexActionTest(TestCase):
         response = self.client.post('/login_action/', data = self.login_user)
         response = self.client.post('/sign_index_action/1/', { 'phone':'' })
         self.assertEqual(response.status_code, 200)
-        self.assertIn('手机号不存在', (response.content).deconde('utf-8'))
+        self.assertIn('手机号不存在', (response.content).decode('utf-8'))
+
+    def test_sign_index_action_phone_or_event_id_error(self):
+        # 手机号或发布会ID为空
+        response = self.client.post('/login_action/', data = self.login_user)
+        response = self.client.post('/sign_index_action/2/', { 'phone':'18611001100' })
+        self.assertEqual(response.status_code, 200)
+        self.assertIn('发布会id与手机号不匹配', (response.content).decode('utf-8'))
+
+    def test_sing_index_action_user_sign_has(self):
+        # 用户已签到
+        response = self.client.post('/login_action/', data = self.login_user)
+        response = self.client.post('/sign_index_action/2/', { 'phone':'18611001101' })
+        self.assertEqual(response.status_code, 200)
+        self.assertIn('用户已签到', (response.content).decode('utf-8'))
+
+    def test_sign_index_action_sign_success(self):
+        # 签到成功
+        response = self.client.post('/login_action/', data = self.login_user)
+        response = self.client.post('/sign_index_action/1/', { 'phone': '18611001100' })
+        self.assertEqual(response.status_code, 200)
+        self.assertIn('签到成功', (response.content).decode('utf-8'))
+

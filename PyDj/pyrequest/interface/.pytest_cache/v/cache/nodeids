@@ -1,0 +1,7 @@
+[
+  "add_event_test.py::AddEventTest::test_add_event_all_null",
+  "add_event_test.py::AddEventTest::test_add_event_data_type_error",
+  "add_event_test.py::AddEventTest::test_add_event_eid_exist",
+  "add_event_test.py::AddEventTest::test_add_event_name_exist",
+  "add_event_test.py::AddEventTest::test_add_event_success"
+]

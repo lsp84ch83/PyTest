@@ -6,8 +6,8 @@
 # @license : Copyright(C), Your Company
 import unittest
 
-from Selenium.unittest.Structurization import testadd
-from Selenium.unittest.Structurization import testsub
+from Selenium.unittest.testpro import testadd
+from Selenium.unittest.testpro import testsub
 
 # 构造测试集
 suite = unittest.TestSuite()

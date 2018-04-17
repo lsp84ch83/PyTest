@@ -1,0 +1,4 @@
+{
+  "test.py::TestAdd::test_add2": true,
+  "test.py::TestSub::test_sub2": true
+}

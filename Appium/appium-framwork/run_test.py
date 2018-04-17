@@ -5,12 +5,6 @@
 # @version : 1.0.0 
 # @license : Copyright(C), Your Company
 
-from HTMLTestRunner import HTMLTestRunner
-from email.header import Header
-from email.mime.text import MIMEText
-import smtplib
-import time
-import unittest
 import sys
 
 reload(sys)  # 加载

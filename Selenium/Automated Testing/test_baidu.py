@@ -18,7 +18,7 @@ class Baidu(unittest.TestCase):
     def test_baidu_search(self):
         driver = self.driver
         driver.get(self.baidu_url)
-        driver.find_element_by_id("kw").send_keys("sorce")
+        driver.find_element_by_id("k").send_keys("sorce")
         sleep(2)
         driver.find_element_by_id("su").click()
 
