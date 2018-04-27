@@ -41,6 +41,7 @@ if __name__ == "__main__":
     runner.run(testsuit)
     fp.close()
 
+
 '''
     # 发送邮箱服务器
     mail_host = "smtp.qq.com"
