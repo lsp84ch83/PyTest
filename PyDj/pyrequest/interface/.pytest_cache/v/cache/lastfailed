@@ -1,7 +1,8 @@
 {
-  "add_event_test.py::AddEventTest::test_add_event_all_null": true,
-  "add_event_test.py::AddEventTest::test_add_event_data_type_error": true,
-  "add_event_test.py::AddEventTest::test_add_event_eid_exist": true,
-  "add_event_test.py::AddEventTest::test_add_event_name_exist": true,
-  "add_event_test.py::AddEventTest::test_add_event_success": true
+  "Interface_AES_test.py::AESTest::test_aes_interface": true,
+  "Interface_AES_test.py::AESTest::test_get_event_list_eid_error": true,
+  "Interface_AES_test.py::AESTest::test_get_event_list_eid_phone_null": true,
+  "Interface_AES_test.py::AESTest::test_get_event_list_eid_phone_success": true,
+  "Interface_AES_test.py::AESTest::test_get_event_list_eid_success": true,
+  "Interface_AES_test.py::AESTest::test_get_guest_list_eid_null": true
 }

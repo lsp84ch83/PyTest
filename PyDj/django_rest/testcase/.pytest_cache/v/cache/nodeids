@@ -1,0 +1,7 @@
+[
+  "rest_test.py::UserTest::test_user1",
+  "rest_test.py::UserTest::test_user2",
+  "rest_test.py::UserTest::test_user3",
+  "rest_test.py::GroupsTest::test_groups1",
+  "rest_test.py::GroupsTest::test_groups2"
+]

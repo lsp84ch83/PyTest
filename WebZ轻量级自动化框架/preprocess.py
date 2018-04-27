@@ -114,7 +114,7 @@ class preprocess :
 
         
         try :
-            print("Step.3 generating test report...")
+            print("Step.3 generating test interface...")
             try :
                 autoreport.new_report().auto_chart(allcount, failcount, faillist, info, pathnow)
             except Exception as e:
@@ -125,7 +125,7 @@ class preprocess :
             input()
         except Exception as e :
             print(e)
-            print("Failed to generate test report!")
+            print("Failed to generate test interface!")
 
 if __name__ == '__main__':
     input("You can not run me!")

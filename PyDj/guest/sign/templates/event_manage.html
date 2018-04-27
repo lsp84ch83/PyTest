@@ -55,24 +55,24 @@
                     <th>状态</th>
                     <th>地址</th>
                     <th>时间</th>
-                    <th>签到</th>
+                <th style="width: 45px;">签到</th>
+                <th>签到正式</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for event in events %}
+                <tr>
+                  <td>{{ event.id }}</td>
+                  <td>{{ event.name }}</td>
+                  <td>{{ event.status }}</td>
+                  <td>{{ event.address }}</td>
+                  <td>{{ event.start_time }}</td>
+                  <td><a href="/sign_index/{{ event.id }}/"  target="{{ event.id }}_blank">sign</a></td>
+                  <td><a href="/sign_index2/{{ event.id }}/"  target="{{ event.id }}_blank">sign_web</a></td>
                 </tr>
-                </thead>
-                <tbody>
-                    {% for event in events %}
-                        <tr>
-                            <td>{{ event.id }}</td>
-                            <td>{{ event.name }}</td>
-                            <td>{{ event.status }}</td>
-                            <td>{{ event.address }}</td>
-                            <td>{{ event.start_time }}</td>
-                            <td>
-                                <a href="/sign_index/{{ event.id }}/" target="{{ event.id }}_black">sign</a>
-                            </td>
-                        </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+             {% endfor %}
+            </tbody>
+          </table>
         </div>
     </div>
 

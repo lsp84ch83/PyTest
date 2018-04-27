@@ -1,0 +1,7 @@
+[
+  "Gps_Send_information_test.py::GpsSend::test_Api_Arbitrarily_null",
+  "Gps_Send_information_test.py::GpsSend::test_Api_Location_Gps",
+  "Gps_Send_information_test.py::GpsSend::test_Api_Location_Unknown",
+  "Gps_Send_information_test.py::GpsSend::test_Api_Location_base_station",
+  "Gps_Send_information_test.py::GpsSend::test_Api_all_null"
+]

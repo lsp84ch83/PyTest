@@ -19,11 +19,11 @@ desired_caps['appPackage'] = 'com.android.calculator2'    # 包名; 1. adb shell
 desired_caps['appActivity'] = '.Calculator'   # 存放Activity名称
 '''
 desired_caps = {
-    'platformName' : 'Android',     # 平台
-    'platformVersion' : '4.4.4',    # 版本号
-    'deviceName' : '192.168.103.101:5555',  # 设备名称
-    'appPackage' : 'com.android.calculator2',   # 应用包名
-    'appActivity' : '.Calculator'   # Activity名
+    "platformName" : "Android",     # 平台
+    "platformVersion" : "5.1",    # 版本号
+    "deviceName" : "192.168.103.101:5555",  # 设备名称
+    "appPackage" : "com.android.calculator2",   # 应用包名
+    "appActivity" : ".Calculator"   # Activity名
 }
 
 
@@ -33,20 +33,20 @@ sleep(3)
 
 # 定位 4+5 =9
 # 4id：com.android.calculator2:id/digit4
-driver.find_element_by_id('com.android.calculator2:id/digit4').click()
+driver.find_element_by_id('com.android.calculator2:id/digit_4').click()
 # + desc: 描述puls
-driver.find_element_by_name('plus').click()
+driver.find_element_by_name('加').click()
 # 5
-driver.find_element_by_id('com.android.calculator2:id/digit5').click()
+driver.find_element_by_id('com.android.calculator2:id/digit_5').click()
 # =
-driver.find_element_by_id('com.android.calculator2:id/equal').click()
+driver.find_element_by_id('com.android.calculator2:id/eq').click()
 # 结果 class class_name
 result = driver.find_element_by_class_name('android.widget.EditText').text
 print(result)
 
 if  int(result) == 9:
     print('测试通过')
-    driver.find_element_by_id('com.android.calculator2:id/clear').click()
+    driver.find_element_by_id('com.android.calculator2:id/clr').click()
 else:
     print('测试不通过')
 
