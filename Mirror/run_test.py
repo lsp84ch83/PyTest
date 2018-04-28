@@ -35,12 +35,11 @@ if __name__ == "__main__":
     # 定义测试报告
     runner = HTMLTestRunner(stream=fp,  # 报告文件地址
                             title='哈罗同行自动化测试', # 报告标题
-                            description="简单业务流程：", #报告描述
+                            description="接口地址：http://api-maintenance-hx.hollo.cn/device_info/", #报告描述
                             tester='李君' #执行人员
                             )
     runner.run(testsuit)
     fp.close()
-
 
 '''
     # 发送邮箱服务器

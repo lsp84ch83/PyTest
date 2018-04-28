@@ -10,10 +10,12 @@ from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.common.by import By
 from time import sleep
 import unittest
+from Mirror.data.basecase import BasecaseClass
 
 
-class Business(unittest.TestCase):
+class Business(BasecaseClass):
     def setUp(self):
+        '''
         # 获取手机的信息
         desired_caps = {
             'platformName': 'Android',  # 平台
@@ -24,12 +26,15 @@ class Business(unittest.TestCase):
             'unicodeKeyboard': 'True',  # 防止键盘中文不能输入
             'resetKeyboard': 'True'  # 重置设置生效
         }
+
         # 启动appium
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+        '''
+        BasecaseClass.smtUP(self)
         sleep(3)
 
     def tearDown(self):
-        self.driver.quit()
+        BasecaseClass.tmarDown(self)
 
     # 引导页
     def test_boot_page(self):
@@ -53,7 +58,7 @@ class Business(unittest.TestCase):
         self.driver.find_element(By.ID,'cn.com.haoluo.www:id/tip_view').click()
         # 点击票夹跳转登录
         self.driver.find_element(By.ID,'cn.com.haoluo.www:id/bottom_bar_action_button').click()
-
+    @unittest.skip
     def test_registered_account(self):
         ''' 注册用户 '''
         self.test_guide_purchase()
@@ -82,7 +87,7 @@ class Business(unittest.TestCase):
         TouchAction(self.driver).tap(x=661, y=768).perform() # 收起键盘
         self.driver.find_element(By.ID,'cn.com.haoluo.www:id/bt_confirm').click()
         sleep(3)
-
+    @unittest.skip
     def test_ticket_purchase(self):
         self.test_sign()
         # 进入购票列表
