@@ -1,0 +1,4 @@
+{
+  "login_test.py::sign_in::test_api_sign_no_injection": true,
+  "login_test.py::sign_in::test_api_sign_success": true
+}
