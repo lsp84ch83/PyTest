@@ -1,166 +1,712 @@
 DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8ed9294d-7917-4551-8d25-f13889b207ea/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "8ed9294d-7917-4551-8d25-f13889b207ea"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8c98b14d-a8dd-4c62-ab32-58ed846481c4/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "8c98b14d-a8dd-4c62-ab32-58ed846481c4"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8ed9294d-7917-4551-8d25-f13889b207ea/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "8ed9294d-7917-4551-8d25-f13889b207ea"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8c98b14d-a8dd-4c62-ab32-58ed846481c4/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "8c98b14d-a8dd-4c62-ab32-58ed846481c4"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8ed9294d-7917-4551-8d25-f13889b207ea/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "8ed9294d-7917-4551-8d25-f13889b207ea"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8c98b14d-a8dd-4c62-ab32-58ed846481c4/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "8c98b14d-a8dd-4c62-ab32-58ed846481c4"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8ed9294d-7917-4551-8d25-f13889b207ea/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "8ed9294d-7917-4551-8d25-f13889b207ea"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8c98b14d-a8dd-4c62-ab32-58ed846481c4/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "8c98b14d-a8dd-4c62-ab32-58ed846481c4"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8ed9294d-7917-4551-8d25-f13889b207ea/element/1/click {"id": "1", "sessionId": "8ed9294d-7917-4551-8d25-f13889b207ea"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8c98b14d-a8dd-4c62-ab32-58ed846481c4/element/1/click {"id": "1", "sessionId": "8c98b14d-a8dd-4c62-ab32-58ed846481c4"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/8ed9294d-7917-4551-8d25-f13889b207ea {"sessionId": "8ed9294d-7917-4551-8d25-f13889b207ea"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/8c98b14d-a8dd-4c62-ab32-58ed846481c4/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "8c98b14d-a8dd-4c62-ab32-58ed846481c4"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/9c6f4740-9377-4283-bdf0-112d0cf0365d/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "9c6f4740-9377-4283-bdf0-112d0cf0365d"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/9c6f4740-9377-4283-bdf0-112d0cf0365d/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "9c6f4740-9377-4283-bdf0-112d0cf0365d"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/9c6f4740-9377-4283-bdf0-112d0cf0365d/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "9c6f4740-9377-4283-bdf0-112d0cf0365d"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/9c6f4740-9377-4283-bdf0-112d0cf0365d/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "9c6f4740-9377-4283-bdf0-112d0cf0365d"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/9c6f4740-9377-4283-bdf0-112d0cf0365d/element/1/click {"id": "1", "sessionId": "9c6f4740-9377-4283-bdf0-112d0cf0365d"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/9c6f4740-9377-4283-bdf0-112d0cf0365d/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "9c6f4740-9377-4283-bdf0-112d0cf0365d"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/9c6f4740-9377-4283-bdf0-112d0cf0365d/element/2/click {"id": "2", "sessionId": "9c6f4740-9377-4283-bdf0-112d0cf0365d"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/9c6f4740-9377-4283-bdf0-112d0cf0365d/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "9c6f4740-9377-4283-bdf0-112d0cf0365d"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/9c6f4740-9377-4283-bdf0-112d0cf0365d/element/3/click {"id": "3", "sessionId": "9c6f4740-9377-4283-bdf0-112d0cf0365d"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/9c6f4740-9377-4283-bdf0-112d0cf0365d {"sessionId": "9c6f4740-9377-4283-bdf0-112d0cf0365d"}
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/8c98b14d-a8dd-4c62-ab32-58ed846481c4 {"sessionId": "8c98b14d-a8dd-4c62-ab32-58ed846481c4"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/357ff18f-4af3-4fd4-97d8-ed57bc74b54a {"sessionId": "357ff18f-4af3-4fd4-97d8-ed57bc74b54a"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/78d86219-ff83-40d6-a26c-2099395d4c81/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "78d86219-ff83-40d6-a26c-2099395d4c81"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/78d86219-ff83-40d6-a26c-2099395d4c81/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "78d86219-ff83-40d6-a26c-2099395d4c81"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/78d86219-ff83-40d6-a26c-2099395d4c81/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "78d86219-ff83-40d6-a26c-2099395d4c81"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/78d86219-ff83-40d6-a26c-2099395d4c81/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "78d86219-ff83-40d6-a26c-2099395d4c81"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/78d86219-ff83-40d6-a26c-2099395d4c81/element/1/click {"id": "1", "sessionId": "78d86219-ff83-40d6-a26c-2099395d4c81"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/78d86219-ff83-40d6-a26c-2099395d4c81/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "78d86219-ff83-40d6-a26c-2099395d4c81"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/78d86219-ff83-40d6-a26c-2099395d4c81/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "78d86219-ff83-40d6-a26c-2099395d4c81"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/78d86219-ff83-40d6-a26c-2099395d4c81/element/3/click {"id": "3", "sessionId": "78d86219-ff83-40d6-a26c-2099395d4c81"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/78d86219-ff83-40d6-a26c-2099395d4c81/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "78d86219-ff83-40d6-a26c-2099395d4c81"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/78d86219-ff83-40d6-a26c-2099395d4c81 {"sessionId": "78d86219-ff83-40d6-a26c-2099395d4c81"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element/1/click {"id": "1", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element/2/click {"id": "2", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element/3/click {"id": "3", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element {"using": "id", "value": "cn.com.haoluo.www:id/et_phone", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element/4/value {"text": "13521895260", "value": ["1", "3", "5", "2", "1", "8", "9", "5", "2", "6", "0"], "id": "4", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element {"using": "id", "value": "cn.com.haoluo.www:id/et_password", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element/5/value {"text": "111111", "value": ["1", "1", "1", "1", "1", "1"], "id": "5", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/touch/perform {"actions": [{"action": "tap", "options": {"x": 661, "y": 768, "count": 1}}], "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element {"using": "id", "value": "cn.com.haoluo.www:id/bt_confirm", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8/element/6/click {"id": "6", "sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/202709b7-7dbb-4d73-9efe-230e4a9a2ea8 {"sessionId": "202709b7-7dbb-4d73-9efe-230e4a9a2ea8"}
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/863d24d8-433c-4cf8-81b0-211657cc9cb8 {"sessionId": "863d24d8-433c-4cf8-81b0-211657cc9cb8"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/e382d9b2-443a-4b9d-bcd1-b46e4cb8282a {"sessionId": "e382d9b2-443a-4b9d-bcd1-b46e4cb8282a"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/f9ddc192-0596-4d13-a0d6-583d14cd007d/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "f9ddc192-0596-4d13-a0d6-583d14cd007d"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/f9ddc192-0596-4d13-a0d6-583d14cd007d/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "f9ddc192-0596-4d13-a0d6-583d14cd007d"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/f9ddc192-0596-4d13-a0d6-583d14cd007d/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "f9ddc192-0596-4d13-a0d6-583d14cd007d"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/f9ddc192-0596-4d13-a0d6-583d14cd007d/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "f9ddc192-0596-4d13-a0d6-583d14cd007d"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/f9ddc192-0596-4d13-a0d6-583d14cd007d/element/1/click {"id": "1", "sessionId": "f9ddc192-0596-4d13-a0d6-583d14cd007d"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/f9ddc192-0596-4d13-a0d6-583d14cd007d/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "f9ddc192-0596-4d13-a0d6-583d14cd007d"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/f9ddc192-0596-4d13-a0d6-583d14cd007d/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "f9ddc192-0596-4d13-a0d6-583d14cd007d"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/f9ddc192-0596-4d13-a0d6-583d14cd007d/element/3/click {"id": "3", "sessionId": "f9ddc192-0596-4d13-a0d6-583d14cd007d"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/f9ddc192-0596-4d13-a0d6-583d14cd007d/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "f9ddc192-0596-4d13-a0d6-583d14cd007d"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/f9ddc192-0596-4d13-a0d6-583d14cd007d {"sessionId": "f9ddc192-0596-4d13-a0d6-583d14cd007d"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/d76f5fb6-8f6c-4ee3-88e7-b147c1d12ea3 {"sessionId": "d76f5fb6-8f6c-4ee3-88e7-b147c1d12ea3"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/7bf175ee-b073-4a7f-a803-5e50ac47ed5a/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "7bf175ee-b073-4a7f-a803-5e50ac47ed5a"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/7bf175ee-b073-4a7f-a803-5e50ac47ed5a/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "7bf175ee-b073-4a7f-a803-5e50ac47ed5a"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/7bf175ee-b073-4a7f-a803-5e50ac47ed5a/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "7bf175ee-b073-4a7f-a803-5e50ac47ed5a"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/7bf175ee-b073-4a7f-a803-5e50ac47ed5a/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "7bf175ee-b073-4a7f-a803-5e50ac47ed5a"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/7bf175ee-b073-4a7f-a803-5e50ac47ed5a/element/1/click {"id": "1", "sessionId": "7bf175ee-b073-4a7f-a803-5e50ac47ed5a"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/7bf175ee-b073-4a7f-a803-5e50ac47ed5a {"sessionId": "7bf175ee-b073-4a7f-a803-5e50ac47ed5a"}
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/8dc52f3e-c379-4147-8f87-8cb0256f1edd {"sessionId": "8dc52f3e-c379-4147-8f87-8cb0256f1edd"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/030640db-cfcf-4bad-8a91-842f83f45d3b/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "030640db-cfcf-4bad-8a91-842f83f45d3b"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4df315a4-5852-4217-8324-6f366de1d02e/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "4df315a4-5852-4217-8324-6f366de1d02e"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/030640db-cfcf-4bad-8a91-842f83f45d3b/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "030640db-cfcf-4bad-8a91-842f83f45d3b"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4df315a4-5852-4217-8324-6f366de1d02e/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "4df315a4-5852-4217-8324-6f366de1d02e"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/030640db-cfcf-4bad-8a91-842f83f45d3b/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "030640db-cfcf-4bad-8a91-842f83f45d3b"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4df315a4-5852-4217-8324-6f366de1d02e/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "4df315a4-5852-4217-8324-6f366de1d02e"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/030640db-cfcf-4bad-8a91-842f83f45d3b/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "030640db-cfcf-4bad-8a91-842f83f45d3b"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4df315a4-5852-4217-8324-6f366de1d02e/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "4df315a4-5852-4217-8324-6f366de1d02e"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/030640db-cfcf-4bad-8a91-842f83f45d3b/element/1/click {"id": "1", "sessionId": "030640db-cfcf-4bad-8a91-842f83f45d3b"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4df315a4-5852-4217-8324-6f366de1d02e/element/1/click {"id": "1", "sessionId": "4df315a4-5852-4217-8324-6f366de1d02e"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/030640db-cfcf-4bad-8a91-842f83f45d3b/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "030640db-cfcf-4bad-8a91-842f83f45d3b"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4df315a4-5852-4217-8324-6f366de1d02e/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "4df315a4-5852-4217-8324-6f366de1d02e"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/030640db-cfcf-4bad-8a91-842f83f45d3b/element/2/click {"id": "2", "sessionId": "030640db-cfcf-4bad-8a91-842f83f45d3b"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/030640db-cfcf-4bad-8a91-842f83f45d3b/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "030640db-cfcf-4bad-8a91-842f83f45d3b"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/030640db-cfcf-4bad-8a91-842f83f45d3b/element/3/click {"id": "3", "sessionId": "030640db-cfcf-4bad-8a91-842f83f45d3b"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/030640db-cfcf-4bad-8a91-842f83f45d3b {"sessionId": "030640db-cfcf-4bad-8a91-842f83f45d3b"}
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/4df315a4-5852-4217-8324-6f366de1d02e {"sessionId": "4df315a4-5852-4217-8324-6f366de1d02e"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/5e8e0e19-7b16-41ce-8d3c-0b242cba54b1 {"sessionId": "5e8e0e19-7b16-41ce-8d3c-0b242cba54b1"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ca34fc22-0759-47fe-bdda-53b7e92fa761/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "ca34fc22-0759-47fe-bdda-53b7e92fa761"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ca34fc22-0759-47fe-bdda-53b7e92fa761/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "ca34fc22-0759-47fe-bdda-53b7e92fa761"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ca34fc22-0759-47fe-bdda-53b7e92fa761/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "ca34fc22-0759-47fe-bdda-53b7e92fa761"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ca34fc22-0759-47fe-bdda-53b7e92fa761/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "ca34fc22-0759-47fe-bdda-53b7e92fa761"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ca34fc22-0759-47fe-bdda-53b7e92fa761/element/1/click {"id": "1", "sessionId": "ca34fc22-0759-47fe-bdda-53b7e92fa761"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ca34fc22-0759-47fe-bdda-53b7e92fa761/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "ca34fc22-0759-47fe-bdda-53b7e92fa761"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ca34fc22-0759-47fe-bdda-53b7e92fa761/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "ca34fc22-0759-47fe-bdda-53b7e92fa761"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ca34fc22-0759-47fe-bdda-53b7e92fa761/element/3/click {"id": "3", "sessionId": "ca34fc22-0759-47fe-bdda-53b7e92fa761"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ca34fc22-0759-47fe-bdda-53b7e92fa761/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "ca34fc22-0759-47fe-bdda-53b7e92fa761"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/ca34fc22-0759-47fe-bdda-53b7e92fa761 {"sessionId": "ca34fc22-0759-47fe-bdda-53b7e92fa761"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element/1/click {"id": "1", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element/2/click {"id": "2", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element/3/click {"id": "3", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element {"using": "id", "value": "cn.com.haoluo.www:id/et_phone", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element/4/value {"text": "13521895260", "value": ["1", "3", "5", "2", "1", "8", "9", "5", "2", "6", "0"], "id": "4", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element {"using": "id", "value": "cn.com.haoluo.www:id/et_password", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element/5/value {"text": "111111", "value": ["1", "1", "1", "1", "1", "1"], "id": "5", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/touch/perform {"actions": [{"action": "tap", "options": {"x": 661, "y": 768, "count": 1}}], "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element {"using": "id", "value": "cn.com.haoluo.www:id/bt_confirm", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e/element/6/click {"id": "6", "sessionId": "99556778-7754-4703-9781-7233981e055e"}
-DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/99556778-7754-4703-9781-7233981e055e {"sessionId": "99556778-7754-4703-9781-7233981e055e"}
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/c7464636-1ee4-406f-b3ce-1d259461aba6 {"sessionId": "c7464636-1ee4-406f-b3ce-1d259461aba6"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
 DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
-DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/c70c7cd8-11cf-45f9-80ce-9439a6597649 {"sessionId": "c70c7cd8-11cf-45f9-80ce-9439a6597649"}
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4370e30b-e109-4d1d-8440-9f1144917190/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "4370e30b-e109-4d1d-8440-9f1144917190"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4370e30b-e109-4d1d-8440-9f1144917190/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "4370e30b-e109-4d1d-8440-9f1144917190"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4370e30b-e109-4d1d-8440-9f1144917190/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "4370e30b-e109-4d1d-8440-9f1144917190"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4370e30b-e109-4d1d-8440-9f1144917190/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "4370e30b-e109-4d1d-8440-9f1144917190"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4370e30b-e109-4d1d-8440-9f1144917190/element/1/click {"id": "1", "sessionId": "4370e30b-e109-4d1d-8440-9f1144917190"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4370e30b-e109-4d1d-8440-9f1144917190/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "4370e30b-e109-4d1d-8440-9f1144917190"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4370e30b-e109-4d1d-8440-9f1144917190/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "4370e30b-e109-4d1d-8440-9f1144917190"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4370e30b-e109-4d1d-8440-9f1144917190/element/3/click {"id": "3", "sessionId": "4370e30b-e109-4d1d-8440-9f1144917190"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/4370e30b-e109-4d1d-8440-9f1144917190/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "4370e30b-e109-4d1d-8440-9f1144917190"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/4370e30b-e109-4d1d-8440-9f1144917190 {"sessionId": "4370e30b-e109-4d1d-8440-9f1144917190"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/c9f76f74-2d78-43d4-acba-a33bc0d2b300 {"sessionId": "c9f76f74-2d78-43d4-acba-a33bc0d2b300"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/36948eb2-231c-4cc1-ba9d-689bd8458b56 {"sessionId": "36948eb2-231c-4cc1-ba9d-689bd8458b56"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/52804b8b-7603-417f-aefc-8e8a59619cd2/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "52804b8b-7603-417f-aefc-8e8a59619cd2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/52804b8b-7603-417f-aefc-8e8a59619cd2/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "52804b8b-7603-417f-aefc-8e8a59619cd2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/52804b8b-7603-417f-aefc-8e8a59619cd2/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "52804b8b-7603-417f-aefc-8e8a59619cd2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/52804b8b-7603-417f-aefc-8e8a59619cd2/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "52804b8b-7603-417f-aefc-8e8a59619cd2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/52804b8b-7603-417f-aefc-8e8a59619cd2/element/1/click {"id": "1", "sessionId": "52804b8b-7603-417f-aefc-8e8a59619cd2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/52804b8b-7603-417f-aefc-8e8a59619cd2/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "52804b8b-7603-417f-aefc-8e8a59619cd2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/52804b8b-7603-417f-aefc-8e8a59619cd2 {"sessionId": "52804b8b-7603-417f-aefc-8e8a59619cd2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1f229fe4-1162-48b5-89a2-5e4f0a598946/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "1f229fe4-1162-48b5-89a2-5e4f0a598946"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1f229fe4-1162-48b5-89a2-5e4f0a598946/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "1f229fe4-1162-48b5-89a2-5e4f0a598946"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1f229fe4-1162-48b5-89a2-5e4f0a598946/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "1f229fe4-1162-48b5-89a2-5e4f0a598946"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1f229fe4-1162-48b5-89a2-5e4f0a598946/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "1f229fe4-1162-48b5-89a2-5e4f0a598946"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1f229fe4-1162-48b5-89a2-5e4f0a598946/element/1/click {"id": "1", "sessionId": "1f229fe4-1162-48b5-89a2-5e4f0a598946"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1f229fe4-1162-48b5-89a2-5e4f0a598946/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "1f229fe4-1162-48b5-89a2-5e4f0a598946"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1f229fe4-1162-48b5-89a2-5e4f0a598946/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "1f229fe4-1162-48b5-89a2-5e4f0a598946"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1f229fe4-1162-48b5-89a2-5e4f0a598946/element/3/click {"id": "3", "sessionId": "1f229fe4-1162-48b5-89a2-5e4f0a598946"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1f229fe4-1162-48b5-89a2-5e4f0a598946/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "1f229fe4-1162-48b5-89a2-5e4f0a598946"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/1f229fe4-1162-48b5-89a2-5e4f0a598946 {"sessionId": "1f229fe4-1162-48b5-89a2-5e4f0a598946"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/a8dd531f-18de-445d-8a42-f9eb83f4c684 {"sessionId": "a8dd531f-18de-445d-8a42-f9eb83f4c684"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element/1/click {"id": "1", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element/3/click {"id": "3", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element/4/click {"id": "4", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element {"using": "id", "value": "cn.com.haoluo.www:id/et_phone", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element/5/value {"text": "13521895260", "value": ["1", "3", "5", "2", "1", "8", "9", "5", "2", "6", "0"], "id": "5", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element {"using": "id", "value": "cn.com.haoluo.www:id/et_password", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element/6/value {"text": "111111", "value": ["1", "1", "1", "1", "1", "1"], "id": "6", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/touch/perform {"actions": [{"action": "tap", "options": {"x": 661, "y": 768, "count": 1}}], "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element {"using": "id", "value": "cn.com.haoluo.www:id/bt_confirm", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f/element/7/click {"id": "7", "sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f {"sessionId": "61cdfb2e-5d17-4e16-8cf4-053d27ebdb6f"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/cfb2e10f-6bde-4c64-b215-74eeaca83951 {"sessionId": "cfb2e10f-6bde-4c64-b215-74eeaca83951"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/ff55ee84-762a-4f03-b5bd-c48eac7a42db {"sessionId": "ff55ee84-762a-4f03-b5bd-c48eac7a42db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/6913702d-2068-46a8-9fe3-abd0ca58af7c/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "6913702d-2068-46a8-9fe3-abd0ca58af7c"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/6913702d-2068-46a8-9fe3-abd0ca58af7c/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "6913702d-2068-46a8-9fe3-abd0ca58af7c"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/6913702d-2068-46a8-9fe3-abd0ca58af7c/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "6913702d-2068-46a8-9fe3-abd0ca58af7c"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/6913702d-2068-46a8-9fe3-abd0ca58af7c/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "6913702d-2068-46a8-9fe3-abd0ca58af7c"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/6913702d-2068-46a8-9fe3-abd0ca58af7c/element/1/click {"id": "1", "sessionId": "6913702d-2068-46a8-9fe3-abd0ca58af7c"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/6913702d-2068-46a8-9fe3-abd0ca58af7c/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "6913702d-2068-46a8-9fe3-abd0ca58af7c"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/6913702d-2068-46a8-9fe3-abd0ca58af7c {"sessionId": "6913702d-2068-46a8-9fe3-abd0ca58af7c"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/89cbf991-8899-47b7-af0b-963258b934d3/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "89cbf991-8899-47b7-af0b-963258b934d3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/89cbf991-8899-47b7-af0b-963258b934d3/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "89cbf991-8899-47b7-af0b-963258b934d3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/89cbf991-8899-47b7-af0b-963258b934d3/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "89cbf991-8899-47b7-af0b-963258b934d3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/89cbf991-8899-47b7-af0b-963258b934d3/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "89cbf991-8899-47b7-af0b-963258b934d3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/89cbf991-8899-47b7-af0b-963258b934d3/element/1/click {"id": "1", "sessionId": "89cbf991-8899-47b7-af0b-963258b934d3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/89cbf991-8899-47b7-af0b-963258b934d3/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "89cbf991-8899-47b7-af0b-963258b934d3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/89cbf991-8899-47b7-af0b-963258b934d3/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "89cbf991-8899-47b7-af0b-963258b934d3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/89cbf991-8899-47b7-af0b-963258b934d3/element/3/click {"id": "3", "sessionId": "89cbf991-8899-47b7-af0b-963258b934d3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/89cbf991-8899-47b7-af0b-963258b934d3/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "89cbf991-8899-47b7-af0b-963258b934d3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/89cbf991-8899-47b7-af0b-963258b934d3 {"sessionId": "89cbf991-8899-47b7-af0b-963258b934d3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/f02a7577-3ef0-4e41-8aa3-5ab597b3bbb0 {"sessionId": "f02a7577-3ef0-4e41-8aa3-5ab597b3bbb0"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element/1/click {"id": "1", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element/3/click {"id": "3", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element/4/click {"id": "4", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element {"using": "id", "value": "cn.com.haoluo.www:id/et_phone", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element/5/value {"text": "13521895260", "value": ["1", "3", "5", "2", "1", "8", "9", "5", "2", "6", "0"], "id": "5", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element {"using": "id", "value": "cn.com.haoluo.www:id/et_password", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element/6/value {"text": "111111", "value": ["1", "1", "1", "1", "1", "1"], "id": "6", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/touch/perform {"actions": [{"action": "tap", "options": {"x": 661, "y": 768, "count": 1}}], "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element {"using": "id", "value": "cn.com.haoluo.www:id/bt_confirm", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db/element/7/click {"id": "7", "sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/a7aed117-8154-4aaa-ba71-a85cf44157db {"sessionId": "a7aed117-8154-4aaa-ba71-a85cf44157db"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/30a42fac-36cb-419f-94a1-53cf5713a075 {"sessionId": "30a42fac-36cb-419f-94a1-53cf5713a075"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/eabc7beb-bd67-4bf7-a45a-00f571c47d00 {"sessionId": "eabc7beb-bd67-4bf7-a45a-00f571c47d00"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d8019455-67ea-4bb0-95ad-c76079ae71c7/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "d8019455-67ea-4bb0-95ad-c76079ae71c7"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d8019455-67ea-4bb0-95ad-c76079ae71c7/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "d8019455-67ea-4bb0-95ad-c76079ae71c7"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d8019455-67ea-4bb0-95ad-c76079ae71c7/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "d8019455-67ea-4bb0-95ad-c76079ae71c7"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d8019455-67ea-4bb0-95ad-c76079ae71c7/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "d8019455-67ea-4bb0-95ad-c76079ae71c7"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d8019455-67ea-4bb0-95ad-c76079ae71c7/element/1/click {"id": "1", "sessionId": "d8019455-67ea-4bb0-95ad-c76079ae71c7"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d8019455-67ea-4bb0-95ad-c76079ae71c7/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "d8019455-67ea-4bb0-95ad-c76079ae71c7"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/d8019455-67ea-4bb0-95ad-c76079ae71c7 {"sessionId": "d8019455-67ea-4bb0-95ad-c76079ae71c7"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b77a3778-22d0-4ac7-ac37-ca0615a784c8/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "b77a3778-22d0-4ac7-ac37-ca0615a784c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b77a3778-22d0-4ac7-ac37-ca0615a784c8/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "b77a3778-22d0-4ac7-ac37-ca0615a784c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b77a3778-22d0-4ac7-ac37-ca0615a784c8/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "b77a3778-22d0-4ac7-ac37-ca0615a784c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b77a3778-22d0-4ac7-ac37-ca0615a784c8/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "b77a3778-22d0-4ac7-ac37-ca0615a784c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b77a3778-22d0-4ac7-ac37-ca0615a784c8/element/1/click {"id": "1", "sessionId": "b77a3778-22d0-4ac7-ac37-ca0615a784c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b77a3778-22d0-4ac7-ac37-ca0615a784c8/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "b77a3778-22d0-4ac7-ac37-ca0615a784c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b77a3778-22d0-4ac7-ac37-ca0615a784c8/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "b77a3778-22d0-4ac7-ac37-ca0615a784c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b77a3778-22d0-4ac7-ac37-ca0615a784c8/element/3/click {"id": "3", "sessionId": "b77a3778-22d0-4ac7-ac37-ca0615a784c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b77a3778-22d0-4ac7-ac37-ca0615a784c8/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "b77a3778-22d0-4ac7-ac37-ca0615a784c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/b77a3778-22d0-4ac7-ac37-ca0615a784c8 {"sessionId": "b77a3778-22d0-4ac7-ac37-ca0615a784c8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/a53c14b3-4fc5-4bd9-8155-81a4c7c5b626 {"sessionId": "a53c14b3-4fc5-4bd9-8155-81a4c7c5b626"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element/1/click {"id": "1", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element/3/click {"id": "3", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element/4/click {"id": "4", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element {"using": "id", "value": "cn.com.haoluo.www:id/et_phone", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element/5/value {"text": "13521895260", "value": ["1", "3", "5", "2", "1", "8", "9", "5", "2", "6", "0"], "id": "5", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element {"using": "id", "value": "cn.com.haoluo.www:id/et_password", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element/6/value {"text": "111111", "value": ["1", "1", "1", "1", "1", "1"], "id": "6", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/touch/perform {"actions": [{"action": "tap", "options": {"x": 661, "y": 768, "count": 1}}], "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element {"using": "id", "value": "cn.com.haoluo.www:id/bt_confirm", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3/element/7/click {"id": "7", "sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/38b8d74b-d776-44a1-86b9-cc663a1e80a3 {"sessionId": "38b8d74b-d776-44a1-86b9-cc663a1e80a3"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/e3a8f5f8-f05e-4794-a994-52cdfd8baa02 {"sessionId": "e3a8f5f8-f05e-4794-a994-52cdfd8baa02"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b3502891-88f3-4ac4-b356-9b30856f34c9/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "b3502891-88f3-4ac4-b356-9b30856f34c9"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b3502891-88f3-4ac4-b356-9b30856f34c9/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "b3502891-88f3-4ac4-b356-9b30856f34c9"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b3502891-88f3-4ac4-b356-9b30856f34c9/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "b3502891-88f3-4ac4-b356-9b30856f34c9"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b3502891-88f3-4ac4-b356-9b30856f34c9/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "b3502891-88f3-4ac4-b356-9b30856f34c9"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b3502891-88f3-4ac4-b356-9b30856f34c9/element/1/click {"id": "1", "sessionId": "b3502891-88f3-4ac4-b356-9b30856f34c9"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/b3502891-88f3-4ac4-b356-9b30856f34c9/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "b3502891-88f3-4ac4-b356-9b30856f34c9"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/b3502891-88f3-4ac4-b356-9b30856f34c9 {"sessionId": "b3502891-88f3-4ac4-b356-9b30856f34c9"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ec62c1b1-d16f-4018-bf9b-aa3c93f5b865/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "ec62c1b1-d16f-4018-bf9b-aa3c93f5b865"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ec62c1b1-d16f-4018-bf9b-aa3c93f5b865/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "ec62c1b1-d16f-4018-bf9b-aa3c93f5b865"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ec62c1b1-d16f-4018-bf9b-aa3c93f5b865/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "ec62c1b1-d16f-4018-bf9b-aa3c93f5b865"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ec62c1b1-d16f-4018-bf9b-aa3c93f5b865/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "ec62c1b1-d16f-4018-bf9b-aa3c93f5b865"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ec62c1b1-d16f-4018-bf9b-aa3c93f5b865/element/1/click {"id": "1", "sessionId": "ec62c1b1-d16f-4018-bf9b-aa3c93f5b865"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ec62c1b1-d16f-4018-bf9b-aa3c93f5b865/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "ec62c1b1-d16f-4018-bf9b-aa3c93f5b865"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ec62c1b1-d16f-4018-bf9b-aa3c93f5b865/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "ec62c1b1-d16f-4018-bf9b-aa3c93f5b865"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ec62c1b1-d16f-4018-bf9b-aa3c93f5b865/element/3/click {"id": "3", "sessionId": "ec62c1b1-d16f-4018-bf9b-aa3c93f5b865"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/ec62c1b1-d16f-4018-bf9b-aa3c93f5b865/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "ec62c1b1-d16f-4018-bf9b-aa3c93f5b865"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/ec62c1b1-d16f-4018-bf9b-aa3c93f5b865 {"sessionId": "ec62c1b1-d16f-4018-bf9b-aa3c93f5b865"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/5e602215-16ab-45cb-80ac-94601456775c {"sessionId": "5e602215-16ab-45cb-80ac-94601456775c"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element/1/click {"id": "1", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element/3/click {"id": "3", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element/4/click {"id": "4", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element {"using": "id", "value": "cn.com.haoluo.www:id/et_phone", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element/5/value {"text": "13521895260", "value": ["1", "3", "5", "2", "1", "8", "9", "5", "2", "6", "0"], "id": "5", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element {"using": "id", "value": "cn.com.haoluo.www:id/et_password", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element/6/value {"text": "111111", "value": ["1", "1", "1", "1", "1", "1"], "id": "6", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/touch/perform {"actions": [{"action": "tap", "options": {"x": 661, "y": 768, "count": 1}}], "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element {"using": "id", "value": "cn.com.haoluo.www:id/bt_confirm", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128/element/7/click {"id": "7", "sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/e1040340-8b53-45cc-8a8e-6b036de4b128 {"sessionId": "e1040340-8b53-45cc-8a8e-6b036de4b128"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/4174c560-b54b-45e0-924e-104e453849a8 {"sessionId": "4174c560-b54b-45e0-924e-104e453849a8"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/0fe3a457-828f-4bb8-8ef7-ceb075bdee0b/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "0fe3a457-828f-4bb8-8ef7-ceb075bdee0b"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/0fe3a457-828f-4bb8-8ef7-ceb075bdee0b/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "0fe3a457-828f-4bb8-8ef7-ceb075bdee0b"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/0fe3a457-828f-4bb8-8ef7-ceb075bdee0b/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "0fe3a457-828f-4bb8-8ef7-ceb075bdee0b"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/0fe3a457-828f-4bb8-8ef7-ceb075bdee0b/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "0fe3a457-828f-4bb8-8ef7-ceb075bdee0b"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/0fe3a457-828f-4bb8-8ef7-ceb075bdee0b/element/1/click {"id": "1", "sessionId": "0fe3a457-828f-4bb8-8ef7-ceb075bdee0b"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/0fe3a457-828f-4bb8-8ef7-ceb075bdee0b/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "0fe3a457-828f-4bb8-8ef7-ceb075bdee0b"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/0fe3a457-828f-4bb8-8ef7-ceb075bdee0b {"sessionId": "0fe3a457-828f-4bb8-8ef7-ceb075bdee0b"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d86bbb39-ad1f-463e-9e72-49636115a240/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "d86bbb39-ad1f-463e-9e72-49636115a240"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d86bbb39-ad1f-463e-9e72-49636115a240/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "d86bbb39-ad1f-463e-9e72-49636115a240"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d86bbb39-ad1f-463e-9e72-49636115a240/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "d86bbb39-ad1f-463e-9e72-49636115a240"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d86bbb39-ad1f-463e-9e72-49636115a240/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "d86bbb39-ad1f-463e-9e72-49636115a240"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d86bbb39-ad1f-463e-9e72-49636115a240/element/1/click {"id": "1", "sessionId": "d86bbb39-ad1f-463e-9e72-49636115a240"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d86bbb39-ad1f-463e-9e72-49636115a240/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "d86bbb39-ad1f-463e-9e72-49636115a240"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d86bbb39-ad1f-463e-9e72-49636115a240/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "d86bbb39-ad1f-463e-9e72-49636115a240"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d86bbb39-ad1f-463e-9e72-49636115a240/element/3/click {"id": "3", "sessionId": "d86bbb39-ad1f-463e-9e72-49636115a240"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/d86bbb39-ad1f-463e-9e72-49636115a240/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "d86bbb39-ad1f-463e-9e72-49636115a240"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/d86bbb39-ad1f-463e-9e72-49636115a240 {"sessionId": "d86bbb39-ad1f-463e-9e72-49636115a240"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/f79c3a5a-f6c2-41b1-ad75-66defee35dda {"sessionId": "f79c3a5a-f6c2-41b1-ad75-66defee35dda"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element/1/click {"id": "1", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element/3/click {"id": "3", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element/4/click {"id": "4", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element {"using": "id", "value": "cn.com.haoluo.www:id/et_phone", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element/5/value {"text": "13521895260", "value": ["1", "3", "5", "2", "1", "8", "9", "5", "2", "6", "0"], "id": "5", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element {"using": "id", "value": "cn.com.haoluo.www:id/et_password", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element/6/value {"text": "111111", "value": ["1", "1", "1", "1", "1", "1"], "id": "6", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/touch/perform {"actions": [{"action": "tap", "options": {"x": 661, "y": 768, "count": 1}}], "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element {"using": "id", "value": "cn.com.haoluo.www:id/bt_confirm", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87/element/7/click {"id": "7", "sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/519f27c9-eb61-4282-9da4-0af458294a87 {"sessionId": "519f27c9-eb61-4282-9da4-0af458294a87"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/b8570d9a-5d60-4492-9880-498e5a608a5d {"sessionId": "b8570d9a-5d60-4492-9880-498e5a608a5d"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3ec8f539-b643-4cf9-9f82-952e0539f767/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "3ec8f539-b643-4cf9-9f82-952e0539f767"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3ec8f539-b643-4cf9-9f82-952e0539f767/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "3ec8f539-b643-4cf9-9f82-952e0539f767"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3ec8f539-b643-4cf9-9f82-952e0539f767/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "3ec8f539-b643-4cf9-9f82-952e0539f767"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3ec8f539-b643-4cf9-9f82-952e0539f767/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "3ec8f539-b643-4cf9-9f82-952e0539f767"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3ec8f539-b643-4cf9-9f82-952e0539f767/element/1/click {"id": "1", "sessionId": "3ec8f539-b643-4cf9-9f82-952e0539f767"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3ec8f539-b643-4cf9-9f82-952e0539f767/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "3ec8f539-b643-4cf9-9f82-952e0539f767"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/3ec8f539-b643-4cf9-9f82-952e0539f767 {"sessionId": "3ec8f539-b643-4cf9-9f82-952e0539f767"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1992d135-cbcb-4c92-9fec-a1e4644b5d90/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "1992d135-cbcb-4c92-9fec-a1e4644b5d90"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1992d135-cbcb-4c92-9fec-a1e4644b5d90/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "1992d135-cbcb-4c92-9fec-a1e4644b5d90"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1992d135-cbcb-4c92-9fec-a1e4644b5d90/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "1992d135-cbcb-4c92-9fec-a1e4644b5d90"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1992d135-cbcb-4c92-9fec-a1e4644b5d90/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "1992d135-cbcb-4c92-9fec-a1e4644b5d90"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1992d135-cbcb-4c92-9fec-a1e4644b5d90/element/1/click {"id": "1", "sessionId": "1992d135-cbcb-4c92-9fec-a1e4644b5d90"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1992d135-cbcb-4c92-9fec-a1e4644b5d90/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "1992d135-cbcb-4c92-9fec-a1e4644b5d90"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1992d135-cbcb-4c92-9fec-a1e4644b5d90/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "1992d135-cbcb-4c92-9fec-a1e4644b5d90"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1992d135-cbcb-4c92-9fec-a1e4644b5d90/element/3/click {"id": "3", "sessionId": "1992d135-cbcb-4c92-9fec-a1e4644b5d90"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/1992d135-cbcb-4c92-9fec-a1e4644b5d90/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "1992d135-cbcb-4c92-9fec-a1e4644b5d90"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/1992d135-cbcb-4c92-9fec-a1e4644b5d90 {"sessionId": "1992d135-cbcb-4c92-9fec-a1e4644b5d90"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/b8d79e2a-81b1-4bdf-b68d-6ce838219a99 {"sessionId": "b8d79e2a-81b1-4bdf-b68d-6ce838219a99"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element/1/click {"id": "1", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element/3/click {"id": "3", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element/4/click {"id": "4", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element {"using": "id", "value": "cn.com.haoluo.www:id/et_phone", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element/5/value {"text": "13521895260", "value": ["1", "3", "5", "2", "1", "8", "9", "5", "2", "6", "0"], "id": "5", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element {"using": "id", "value": "cn.com.haoluo.www:id/et_password", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element/6/value {"text": "111111", "value": ["1", "1", "1", "1", "1", "1"], "id": "6", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/touch/perform {"actions": [{"action": "tap", "options": {"x": 661, "y": 768, "count": 1}}], "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element {"using": "id", "value": "cn.com.haoluo.www:id/bt_confirm", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40/element/7/click {"id": "7", "sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/3eac2e5f-4513-41cf-a592-23c79de4dd40 {"sessionId": "3eac2e5f-4513-41cf-a592-23c79de4dd40"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/039ba176-e5dc-4c49-963b-fc9c065af39b {"sessionId": "039ba176-e5dc-4c49-963b-fc9c065af39b"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "U8LFIJFA99999999", "appPackage": "cn.com.haoluo.www", "appActivity": ".ui.LauncherActivity", "unicodeKeyboard": "True", "resetKeyboard": "True"}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/touch/perform {"actions": [{"action": "press", "options": {"x": 614, "y": 656}}, {"action": "moveTo", "options": {"x": -484, "y": 11}}, {"action": "release", "options": {}}], "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element {"using": "id", "value": "cn.com.haoluo.www:id/entry_btn", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element/1/click {"id": "1", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element/3/click {"id": "3", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element {"using": "id", "value": "cn.com.haoluo.www:id/tip_view", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element {"using": "id", "value": "cn.com.haoluo.www:id/bottom_bar_action_button", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element/4/click {"id": "4", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element {"using": "id", "value": "cn.com.haoluo.www:id/et_phone", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element/5/value {"text": "", "value": [], "id": "5", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element {"using": "id", "value": "cn.com.haoluo.www:id/et_password", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element/6/value {"text": "", "value": [], "id": "6", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/touch/perform {"actions": [{"action": "tap", "options": {"x": 661, "y": 768, "count": 1}}], "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element {"using": "id", "value": "cn.com.haoluo.www:id/bt_confirm", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element/7/click {"id": "7", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element {"using": "id", "value": "cn.com.haoluo.www:id/title", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2/element/8/text {"id": "8", "sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:4723/wd/hub/session/57e7c51d-332c-45e5-a77b-31d1c2793ff2 {"sessionId": "57e7c51d-332c-45e5-a77b-31d1c2793ff2"}
 DEBUG:selenium.webdriver.remote.remote_connection:Finished Request

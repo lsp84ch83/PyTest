@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2018/4/1 16:25
 # @Author  : Soner
 # @version : 1.0.0 
@@ -21,5 +21,3 @@ sys.setdaultencoding('utf-8')
 # 1> 获取框架脚本位置
 # 2> 选取需要运行的脚本，加载到测试集
 # 3> createSuite() 创建测试集的函数
-
-def createSuite():

@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+# _*_ coding:utf-8 _*_
 '''
 Message 是Label组件的变体，用于显示多行文本消息；
 Message组件能够自动换行，并调整文本的尺寸使其适应给定的尺寸

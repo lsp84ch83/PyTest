@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2018/5/22 11:44
 
 __author__ = 'Soenr'
@@ -26,7 +26,7 @@ pwd = fp.split(",")[1]
 
 # 登录账号
 def login(driver):
-    driver.find_element_by_id("LAY-user-login-username").send_keys(name)
+    driver.find_element_by_id("LAY-user-test_login-username").send_keys(name)
     driver.find_element_by_name("password").send_keys(pwd)
     driver.find_element_by_id("js_login_submit_btn").click()
 

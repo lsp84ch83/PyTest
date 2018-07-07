@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2018/5/22 18:15
 
 __author__ = 'Soenr'
@@ -14,7 +14,7 @@ def ads():
     driver.get("http://eam-dev.hollo.cn/")
 
     # 登录一次以便获取cookie
-    driver.find_element_by_id("LAY-user-login-username").send_keys("lijun")
+    driver.find_element_by_id("LAY-user-test_login-username").send_keys("lijun")
     driver.find_element_by_name("password").send_keys("111111")
     driver.find_element_by_id("js_login_submit_btn").click()
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 '''
 @Author  : Soner
 @File    : Pack按添加顺序排列组件.py

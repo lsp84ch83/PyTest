@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+# _*_ coding:utf-8 _*_
 '''
 Spinbox组件是Entry组件的变体，用于从一些固定的值中选取一个
 '''

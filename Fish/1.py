@@ -6,32 +6,32 @@ b=a/6.6147
 
 c=a/7.8445
 
-print("×ª»»ÎªÃÀÔª:{:.2f}".format(b))
+print("×ªï¿½ï¿½Îªï¿½ï¿½Ôª:{:.2f}".format(b))
 
-print("×ª»»ÎªÅ·Ôª:{:.2f}".format(c))
+print("×ªï¿½ï¿½ÎªÅ·Ôª:{:.2f}".format(c))
 '''
 
 '''
-# -*- coding:utf-8 -*-
-val = input('ÇëÊäÈë´øÎÂ¶È±êÊ¶·ûºÃµÄÎÂ¶ÈÖµ£¨ÀýÈç£º32C£©£º')
+# _*_ coding:utf-8 _*_
+val = input('ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¶È±ï¿½Ê¶ï¿½ï¿½ï¿½Ãµï¿½ï¿½Â¶ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ç£º32Cï¿½ï¿½ï¿½ï¿½')
 if val[-1] in ['C','c']:
     f = 1.8 * float(val[0:-1]) + 32
-    print('×ª»»ºóµÄµÄÎÂ¶ÈÎª£º%.2fF' % f)
+    print('×ªï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½Â¶ï¿½Îªï¿½ï¿½%.2fF' % f)
 elif val[-1] in ['F','f']:
     c = (float(val[0:-1]) - 32) / 1.6
-    print('×ª»»ºóµÄÎÂ¶ÈÎª£º%.2fC' % c)
+    print('×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¶ï¿½Îªï¿½ï¿½%.2fC' % c)
 else:
-    print('ÊäÈëÓÐÎó')
+    print('ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½')
 '''
 
 '''
-# tkinter µÚÒ»¸ö´°¿Ú
+# tkinter ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 import tkinter as tk
 
 app = tk.Tk()
 app.title('FichsS Demo')
 
-theLabel = tk.Label(app, text='µÚÒ»¸ö´°¿Ú')
+theLabel = tk.Label(app, text='ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½')
 theLabel.pack()
 
 app.mainloop()
@@ -44,11 +44,11 @@ root = Tk()
 
 photo = PhotoImage(file = 'bg.gif')
 theLabel = Label(root,
-                 text = 'Ñ§Python\nµ½ FishC',
+                 text = 'Ñ§Python\nï¿½ï¿½ FishC',
                  justify = LEFT,
                  image = photo,
                  compound = CENTER,
-                 font = ('Î¢ÈíÑÅºÚ',20),
+                 font = ('Î¢ï¿½ï¿½ï¿½Åºï¿½',20),
                  fg = 'white'
                  )
 theLabel.pack()
@@ -60,7 +60,7 @@ mainloop()
 
 from random import randint
 
-name=raw_input('ÄãºÃ')
+name=raw_input('ï¿½ï¿½ï¿½')
 
 f=open('game.txt')
 lines=f.readlines()

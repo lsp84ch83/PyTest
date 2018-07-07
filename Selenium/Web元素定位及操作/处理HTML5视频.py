@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2017/12/5 11:12
 # @Author  : Soner
 # @version : 

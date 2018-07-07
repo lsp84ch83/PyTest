@@ -27,7 +27,7 @@ class AESTest(unittest.TestCase):
         return self.encryptBase64(ciphertext)
 
     def test_aes_interface(self):
-        '''test aes interface'''
+        '''test aes use_case'''
         payload = {'eid': '1', 'phone': '13800138000'}
         # 加密
         encoded = self.encryptAES(json.dumps(payload), self.app_key).decode()

@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+# _*_ coding:utf-8 _*_
 from tkinter import *
 
 m1 = PanedWindow(showhandle=True, sashrelief=SUNKEN)

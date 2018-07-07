@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 """
 这儿是debug的代码，当DEBUG_SWITCH开关开启的时候，会将各种信息存在本地，方便检查故障
 """

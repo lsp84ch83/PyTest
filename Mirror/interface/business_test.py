@@ -1,11 +1,10 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2018/4/4 11:11
 # @Author  : Soner
 # @version : 1.0.0 
 # @license : Copyright(C), Your Company
 
-from appium import webdriver
 from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.common.by import By
 from time import sleep
@@ -15,21 +14,6 @@ from Mirror.data.basecase import BasecaseClass
 
 class Business(BasecaseClass):
     def setUp(self):
-        '''
-        # 获取手机的信息
-        desired_caps = {
-            'platformName': 'Android',  # 平台
-            'platformVersion': '5.1',  # 版本号
-            'deviceName': 'U8LFIJFA99999999',  # 设备名称
-            'appPackage': 'cn.com.haoluo.www',  # 应用包名
-            'appActivity': '.ui.LauncherActivity',  # Activity名
-            'unicodeKeyboard': 'True',  # 防止键盘中文不能输入
-            'resetKeyboard': 'True'  # 重置设置生效
-        }
-
-        # 启动appium
-        self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-        '''
         BasecaseClass.smtUP(self)
         sleep(3)
 
@@ -51,13 +35,23 @@ class Business(BasecaseClass):
         # 划过专座引导进入首页
         self.driver.find_element(By.ID,'cn.com.haoluo.www:id/entry_btn').click()
         sleep(5)
+        self.assertIsNotNone(self.driver.find_element(By.ID,'cn.com.haoluo.www:id/tip_view'),msg="不存在")
 
     def test_guide_purchase(self):
         self.test_boot_page()
         ''' 跳过购票指示 '''
         self.driver.find_element(By.ID,'cn.com.haoluo.www:id/tip_view').click()
-        # 点击票夹跳转登录
-        self.driver.find_element(By.ID,'cn.com.haoluo.www:id/bottom_bar_action_button').click()
+        sleep(2)
+        try:
+            self.driver.find_element(By.ID,'cn.com.haoluo.www:id/tip_view')
+            print("pass")
+        except:
+            pass_1 = True
+        if pass_1 == True:
+            self.assertIsNone(None,'存在')
+        else:
+            self.assertIsNone(not None,"不存在")
+
     @unittest.skip
     def test_registered_account(self):
         ''' 注册用户 '''
@@ -82,6 +76,8 @@ class Business(BasecaseClass):
     def test_sign(self):
         ''' 登录操作 '''
         self.test_guide_purchase()
+        # 点击票夹跳转登录
+        self.driver.find_element(By.ID,'cn.com.haoluo.www:id/bottom_bar_action_button').click()
         self.driver.find_element(By.ID,'cn.com.haoluo.www:id/et_phone').send_keys('13521895260')
         self.driver.find_element(By.ID,'cn.com.haoluo.www:id/et_password').send_keys('111111')
         TouchAction(self.driver).tap(x=661, y=768).perform() # 收起键盘

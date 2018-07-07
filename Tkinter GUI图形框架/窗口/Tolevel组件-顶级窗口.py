@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+# _*_ coding:utf-8 _*_
 '''
 Toplevel(顶级窗口)组件类似于Frame组件；
 但Toplevel组件是一个独立的顶级窗口，这种窗口通常拥有标题栏、边框等部件

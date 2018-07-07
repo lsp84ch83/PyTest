@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+# _*_ coding:utf-8 _*_
 from cx_Freeze import setup, Executable  
 
 setup(name='test to exe',  

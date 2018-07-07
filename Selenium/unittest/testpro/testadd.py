@@ -1,11 +1,11 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2017/12/15 15:32
 # @Author  : Soner
 # @version : 
 # @license : Copyright(C), Your Company
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2017/12/14 16:32
 # @Author  : Soner
 # @version :

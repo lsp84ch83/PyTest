@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 '''
 @Author  : Soner
 @File    : Place指定组件的大小和位置.py

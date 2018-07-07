@@ -1,10 +1,10 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2017/12/18 16:16
 # @Author  : Soner
 # @version : 
 # @license : Copyright(C), Your Company
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 from selenium import webdriver
 import unittest, time
 

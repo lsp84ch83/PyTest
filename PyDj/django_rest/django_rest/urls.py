@@ -28,7 +28,7 @@ router.register("events", views.EventViewSet)
 router.register("guests", views.GuestViewSet)
 
 # Wire up our API using automatic URL routing : 使用自动URL路由连接我们的API
-# Additionally, we include login URLs for the browsable API : 此外，我们还包括可浏览API的登录url
+# Additionally, we include test_login URLs for the browsable API : 此外，我们还包括可浏览API的登录url
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),

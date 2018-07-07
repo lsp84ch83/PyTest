@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2018/5/28 11:25
 
 __author__ = 'Soenr'
@@ -12,7 +12,7 @@ import time
 
 class sign_in(unittest.TestCase):
     def setUp(self):
-        self.url = "http://eam-dev.hollo.cn/api/login"
+        self.url = "http://eam-dev.hollo.cn/api/test_login"
 
     def test_api_sign_success(self):
         '''登录成功'''

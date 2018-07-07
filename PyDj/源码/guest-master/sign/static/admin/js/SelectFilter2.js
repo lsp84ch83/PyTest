@@ -1,6 +1,6 @@
 /*global SelectBox, addEvent, gettext, interpolate, quickElement, SelectFilter*/
 /*
-SelectFilter2 - Turns a multiple-select box into a filter interface.
+SelectFilter2 - Turns a multiple-select box into a filter use_case.
 
 Requires jQuery, core.js, and SelectBox.js.
 */
@@ -110,7 +110,7 @@ Requires jQuery, core.js, and SelectBox.js.
 
             from_box.setAttribute('name', from_box.getAttribute('name') + '_old');
 
-            // Set up the JavaScript event handlers for the select box filter interface
+            // Set up the JavaScript event handlers for the select box filter use_case
             var move_selection = function(e, elem, move_func, from, to) {
                 if (elem.className.indexOf('active') !== -1) {
                     move_func(from, to);

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2017/12/5 13:58
 # @Author  : Soner
 # @version : 
@@ -22,7 +22,7 @@ driver = webdriver.Chrome()
 driver.get("http://pan.baidu.com")
 
 # 登录一次以便获取cookie
-driver.find_element_by_xpath('//*[@id="login-middle"]/div/div[6]/div[2]/a').click()
+driver.find_element_by_xpath('//*[@id="test_login-middle"]/div/div[6]/div[2]/a').click()
 driver.find_element_by_name("userName").send_keys("username")   # 更换成自己的账号
 driver.find_element_by_id("TANGRAM__PSP_4__password").send_keys("password")     # 更换成自己的密码
 driver.find_element_by_id("TANGRAM__PSP_4__submit").submit()

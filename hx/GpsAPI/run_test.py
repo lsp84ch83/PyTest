@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2018/4/25 16:31
 # @Author  : Soner
 # @version : 1.0.0 
@@ -67,7 +67,7 @@ if __name__ == "__main__":
     try:
         # 连接发送邮件
         smtpObj = smtplib.SMTP_SSL(mail_host,465)
-        smtpObj.login(mail_user, mail_pass)
+        smtpObj.test_login(mail_user, mail_pass)
         smtpObj.sendmail(mail_user, receivers, msgRoot.as_string())
         print('发送成功')
     except smtplib.SMTPException as err:

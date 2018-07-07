@@ -26,7 +26,7 @@ urlpatterns = [
     # url(r'^login_action/$', views.login_action),
     # url(r'^event_manage/$', views.event_manage),
     # url(r'^guest_manage/$', views.guest_manage),
-    # url(r'^accounts/login/$', views.index),
+    # url(r'^accounts/test_login/$', views.index),
     # url(r'^search_name/$', views.search_name),
     # url(r'^search_phone/$', views.search_phone),
     # url(r'^sign_index/(?P<event_id>[0-9]+)/$', views.sign_index),
@@ -37,7 +37,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', views.index),
     path('', views.index),
-    path('accounts/login/', views.index),
+    path('accounts/test_login/', views.index),
     path('login_action/', views.login_action),    # 添加 登录login_action 路径配置
     path('event_manage/', views.event_manage),    # 添加 发布会管理 event_manage 路径配置
     path('search_name/', views.search_name),      # 添加 搜索search_name 路径配置

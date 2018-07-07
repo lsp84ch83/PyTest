@@ -1,6 +1,6 @@
 """
 A TestRunner for use with the Python unit testing framework. It
-generates a HTML interface to show the result at a glance.
+generates a HTML use_case to show the result at a glance.
 
 The simplest way to use this is to invoke its main method. E.g.
 
@@ -21,7 +21,7 @@ HTMLTestRunner is a counterpart to unittest's TextTestRunner. E.g.
     runner = HTMLTestRunner.HTMLTestRunner(
                 stream=fp,
                 title='My unit test',
-                description='This demonstrates the interface output by HTMLTestRunner.'
+                description='This demonstrates the use_case output by HTMLTestRunner.'
                 )
 
     # Use an external stylesheet.
@@ -133,9 +133,9 @@ stderr_redirector = OutputRedirector(sys.stderr)
 
 class Template_mixin(object):
     """
-    Define a HTML template for interface customerization and generation.
+    Define a HTML template for use_case customerization and generation.
 
-    Overall structure of an HTML interface
+    Overall structure of an HTML use_case
 
     HTML
     +------------------------+
@@ -294,13 +294,13 @@ function showOutput(id, name) {
 --></report>
 
 %(heading)s
-%(interface)s
+%(use_case)s
 %(ending)s
 %(chart_script)s
 </body>
 </html>
 """
-    # variables: (title, generator, stylesheet, heading, interface, ending)
+    # variables: (title, generator, stylesheet, heading, use_case, ending)
 
 
     # ------------------------------------------------------------------------
@@ -357,7 +357,7 @@ a.popup_link:hover {
 }
 
 }
-/* -- interface ------------------------------------------------------------------------ */
+/* -- use_case ------------------------------------------------------------------------ */
 #show_detail_line {
     margin-top: 3ex;
     margin-bottom: 1ex;
@@ -736,7 +736,7 @@ class HTMLTestRunner(Template_mixin):
 
     def getReportAttributes(self, result):
         """
-        Return interface attributes as a list of (name, value).
+        Return use_case attributes as a list of (name, value).
         Override this to add custom attributes.
         """
         startTime = str(self.startTime)[:19]

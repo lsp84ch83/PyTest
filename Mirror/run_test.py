@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2018/4/25 16:31
 # @Author  : Soner
 # @version : 1.0.0 
@@ -22,7 +22,7 @@ logging.Formatter('[%(asctime)s] - %(filename)s[line:%(lineno)d] - fuc:%(funcNam
 
 
 # 指定测试用例目录
-test_dir = './interface'
+test_dir = './use_case'
 testsuit = defaultTestLoader.discover(test_dir, pattern='*_test.py')
 
 
@@ -58,7 +58,7 @@ if __name__ == "__main__":
     msgRoot.attach(MIMEText('系统邮件，请勿回复！！！', 'plain', 'utf-8'))
     msgRoot['Subject'] = Header(subject, 'utf-8')
     # 添加附件
-    sendfile = open("F:\\PyTest\\GpsAPI\\interface\\%s_result.html" %now,'rb').read()
+    sendfile = open("F:\\PyTest\\GpsAPI\\use_case\\%s_result.html" %now,'rb').read()
     att = MIMEText(sendfile, 'base64', 'utf-8')
     att["Content-Type"] = 'application/octet-stream'
     att["Content-Disposition"] = 'attachment; filename="%s_result.html"'%now
@@ -67,7 +67,7 @@ if __name__ == "__main__":
     try:
         # 连接发送邮件
         smtpObj = smtplib.SMTP_SSL(mail_host,465)
-        smtpObj.login(mail_user, mail_pass)
+        smtpObj.test_login(mail_user, mail_pass)
         smtpObj.sendmail(mail_user, receivers, msgRoot.as_string())
         print('发送成功')
     except smtplib.SMTPException as err:

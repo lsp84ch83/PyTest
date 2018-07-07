@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2018/6/8 14:23
 # @Author  : Soner
 # @version : 1.0.0 
@@ -11,6 +11,7 @@ import time
 from iwebshop.modular import openurl, login
 
 class Logintest(unittest.TestCase):
+    
     def setUp(self):
         self.driver = openurl.open()
         self.wb = xlrd.open_workbook(r"F:\PyTest\iwebshop\data\user.xlsx")   # 打开Excel

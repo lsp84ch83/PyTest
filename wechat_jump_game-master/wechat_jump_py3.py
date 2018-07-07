@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 import os
 import time
 import numpy as np

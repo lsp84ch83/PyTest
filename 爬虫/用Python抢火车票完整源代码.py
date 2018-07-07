@@ -19,7 +19,7 @@ class Buy_Tickets(object):
         self.dtime = dtime
         # self.xb = xb
         # self.pz = pz
-        self.login_url = 'https://kyfw.12306.cn/otn/login/init'
+        self.login_url = 'https://kyfw.12306.cn/otn/test_login/init'
         self.initMy_url = 'https://kyfw.12306.cn/otn/index/initMy12306'
         self.ticket_url = 'https://kyfw.12306.cn/otn/leftTicket/init'
         self.driver_name = 'chrome'

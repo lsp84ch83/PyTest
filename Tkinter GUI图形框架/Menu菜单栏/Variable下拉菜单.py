@@ -1,4 +1,4 @@
-# +9+ coding:utf-8 -*-
+# +9+ coding:utf-8 _*_
 
 from tkinter import *
 

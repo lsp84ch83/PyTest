@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
 # @Time    : 2017/12/11 17:19
 # @Author  : Soner
 # @version :
@@ -43,13 +43,13 @@ root = dom.documentElement
 # ------------1.获得任意标签名 getElementByTagName() 可以通过标签名获取标签------------
 # tagname = root.getElementsByTagName('browser')
 # print(tagname[0].tagName)
-# tagname = root.getElementsByTagName("login")
+# tagname = root.getElementsByTagName("test_login")
 # print(tagname[1].tagName)
 # tagname = root.getElementsByTagName("province")
 # print(tagname[2].tagName)
 
 # ------------2.获得标签的属性值 getAttribute() 方法用千获取元素的属性值------------
-# logins = root.getElementsByTagName("login")
+# logins = root.getElementsByTagName("test_login")
 # # 获得 logins 标签的 username 属性值
 # username = logins[0].getAttribute("username")
 # print(username)

@@ -1,4 +1,4 @@
-# -*- conding=utf-8 -*-
+# _*_ conding=utf-8 _*_
 f = open('cj.txt',encoding='utf-8') #打开一个文件内容
 lines = f.readlines() #按每行读取数据
 #print(lines)    #打印读取的内容

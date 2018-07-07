@@ -1,4 +1,4 @@
-# -*- conding:utf-8 -*-
+# _*_ conding:utf-8 _*_
 
 from tkinter import *
 

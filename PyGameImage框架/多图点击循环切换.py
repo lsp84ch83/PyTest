@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+# _*_ coding:utf-8 _*_
 # 多图点击循环切换,有缺陷，可能会多次随机到同一张图
 
 from sys import exit
