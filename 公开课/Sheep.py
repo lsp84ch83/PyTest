@@ -23,13 +23,16 @@ def get_gif(url, name):
     response = requests.get(url)
 
     # 下载图片
-    with open("F:\\PyTest\\公开课\\image\\%s.gif"%name, 'wb') as f:
+    with open(r"F:\PyTest\公开课\images\%s.gif"%name, 'wb') as f:
         f.write(response.content)
 
 
 
 # 定义一个主函数入口
 if __name__ == '__main__':
+    # 判断images 是否存在，如果不存在则新建
+    if 'images' not in os.listdir():
+        os.makedirs('images')
     url_list = get_urls()
     gif_name = 1
     for url in url_list:
