@@ -52,7 +52,6 @@ def noLove():
 def closenolove():
     messagebox.showinfo("在考虑一下","在考虑一下")
 
-
 # 创建窗口
 window = Tk()
 # 窗口标题
