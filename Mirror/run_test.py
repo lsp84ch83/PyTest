@@ -22,7 +22,7 @@ logging.Formatter('[%(asctime)s] - %(filename)s[line:%(lineno)d] - fuc:%(funcNam
 
 
 # 指定测试用例目录
-test_dir = './use_case'
+test_dir = './interface'
 testsuit = defaultTestLoader.discover(test_dir, pattern='*_test.py')
 
 
