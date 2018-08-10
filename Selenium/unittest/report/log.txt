@@ -1,46 +1,5 @@
 ..
 ----------------------------------------------------------------------
-Ran 2 tests in 24.095s
+Ran 2 tests in 17.845s
 
 OK
-.Traceback (most recent call last):
-  File "E:\Program Files\Python36\lib\socket.py", line 713, in create_connection
-    sock.connect(sa)
-socket.timeout: timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "runtest.py", line 14, in <module>
-    runner.run(discover)
-  File "E:\Program Files\Python36\lib\unittest\runner.py", line 176, in run
-    test(result)
-  File "E:\Program Files\Python36\lib\unittest\suite.py", line 84, in __call__
-    return self.run(*args, **kwds)
-  File "E:\Program Files\Python36\lib\unittest\suite.py", line 122, in run
-    test(result)
-  File "E:\Program Files\Python36\lib\unittest\suite.py", line 84, in __call__
-    return self.run(*args, **kwds)
-  File "E:\Program Files\Python36\lib\unittest\suite.py", line 122, in run
-    test(result)
-  File "E:\Program Files\Python36\lib\unittest\suite.py", line 84, in __call__
-    return self.run(*args, **kwds)
-  File "E:\Program Files\Python36\lib\unittest\suite.py", line 122, in run
-    test(result)
-  File "E:\Program Files\Python36\lib\unittest\case.py", line 653, in __call__
-    return self.run(*args, **kwds)
-  File "E:\Program Files\Python36\lib\unittest\case.py", line 601, in run
-    self.setUp()
-  File "f:\PyTest\Selenium\unittest\test_case\test_youdao.py", line 13, in setUp
-    self.driver = webdriver.Chrome()
-  File "E:\Program Files\Python36\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 62, in __init__
-    self.service.start()
-  File "E:\Program Files\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 97, in start
-    if self.is_connectable():
-  File "E:\Program Files\Python36\lib\site-packages\selenium\webdriver\common\service.py", line 113, in is_connectable
-    return utils.is_connectable(self.port)
-  File "E:\Program Files\Python36\lib\site-packages\selenium\webdriver\common\utils.py", line 106, in is_connectable
-    socket_ = socket.create_connection((host, port), 1)
-  File "E:\Program Files\Python36\lib\socket.py", line 713, in create_connection
-    sock.connect(sa)
-KeyboardInterrupt

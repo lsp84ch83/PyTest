@@ -42,7 +42,7 @@ class GpsSend(unittest.TestCase):
         self.result = r.json()
         self.assertEqual(self.result['code'], -1)
         self.assertEqual(self.result['msg'], '参数错误')
-
+    @unittest.skip
     def test_Api_Arbitrarily_null(self):
         ''' 任意参数为空 '''
         payload = {
@@ -64,7 +64,7 @@ class GpsSend(unittest.TestCase):
         self.result = r.json()
         self.assertEqual(self.result['code'], -1)
         self.assertEqual(self.result['msg'], '参数错误')
-
+    @unittest.skip
     def test_Api_Location_Gps(self):
         ''' 定位模式为GPS '''
         payload = {
@@ -86,7 +86,7 @@ class GpsSend(unittest.TestCase):
         self.result = r.json()
         self.assertEqual(self.result['code'], 0)
         self.assertEqual(self.result['msg'], 'ok')
-
+    @unittest.skip
     def test_Api_Location_base_station(self):
         ''' 定位模式为基站 '''
         payload = {
@@ -108,7 +108,7 @@ class GpsSend(unittest.TestCase):
         self.result = r.json()
         self.assertEqual(self.result['code'], 0)
         self.assertEqual(self.result['msg'], 'ok')
-
+    @unittest.skip
     def test_Api_Location_Unknown(self):
         ''' 定位模式为未知 '''
         payload = {
@@ -130,7 +130,7 @@ class GpsSend(unittest.TestCase):
         self.result = r.json()
         self.assertEqual(self.result['code'], -1)
         self.assertEqual(self.result['msg'], '报歉〜出问题了')
-
+    @unittest.skip
     def test_Api_dismantle_alert(self):
         ''' 处于拆除报警状态 '''
         payload = {

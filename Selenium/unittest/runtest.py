@@ -10,5 +10,8 @@ test_dir = r'f:\PyTest\Selenium\unittest\test_case'
 discover = unittest.defaultTestLoader.discover(test_dir, pattern="test*.py")
 
 if __name__ == "__main__":
-    runner = unittest.TextTestRunner()
-    runner.run(discover)
+    # runner = unittest.TextTestRunner()
+    # runner.run(discover)
+    with open('UnittestTextReport.txt', 'a') as f:
+        runner = unittest.TextTestRunner(stream=f, verbosity=2)
+        runner.run(discover)

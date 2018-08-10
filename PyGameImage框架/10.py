@@ -47,7 +47,7 @@ def checkHit(enemy, bullet):
 
 pygame.init()
 screen = pygame.display.set_mode((450, 800), 0, 32)
-pygame.display.set_caption("Hello, World!")
+pygame.display.set_caption("Mirror, World!")
 background = pygame.image.load('back.jpg').convert()
 plane = pygame.image.load('plane.png').convert_alpha()
 bullets = []

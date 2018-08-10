@@ -15,7 +15,7 @@ class HelloWorldService(ServiceBase):
 		@return the completed array
 		"""
 		for i in range(times):
-			yield u'Hello, %s' % name
+			yield u'Mirror, %s' % name
 
 application = Application([HelloWorldService], 'spyne.examples.hello.soap',
 						   in_protocol=Soap11(validator='lxml'),

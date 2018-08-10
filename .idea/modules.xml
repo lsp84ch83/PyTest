@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://F:/HolloTest/.idea/HolloTest.iml" filepath="F:/HolloTest/.idea/HolloTest.iml" />
       <module fileurl="file://G:/PyClass/.idea/PyClass.iml" filepath="G:/PyClass/.idea/PyClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PyText.iml" filepath="$PROJECT_DIR$/.idea/PyText.iml" />
     </modules>

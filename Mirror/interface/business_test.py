@@ -23,14 +23,15 @@ class Business(BasecaseClass):
     # 引导页
     def test_boot_page(self):
         ''' 跳过引导页 '''
+        sleep(1)
         # 划过哈罗同行引导页
-        TouchAction(self.driver).press(x=614, y=656).move_to(x=-484, y=11).release().perform()
+        TouchAction(self.driver).press(x=569, y=857).move_to(x=157, y=863).release().perform()
         sleep(1)
         # 划过快捷巴士引导页
-        TouchAction(self.driver).press(x=614, y=656).move_to(x=-484, y=11).release().perform()
+        TouchAction(self.driver).press(x=569, y=857).move_to(x=157, y=863).release().perform()
         sleep(1)
         # 划过快捷购票引导页
-        TouchAction(self.driver).press(x=614, y=656).move_to(x=-484, y=11).release().perform()
+        TouchAction(self.driver).press(x=569, y=857).move_to(x=157, y=863).release().perform()
         sleep(1)
         # 划过专座引导进入首页
         self.driver.find_element(By.ID,'cn.com.haoluo.www:id/entry_btn').click()
