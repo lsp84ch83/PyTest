@@ -247,14 +247,14 @@ while   time_end <= 259200:
     try:
         # 定时发送邮件
         if time_end == (1800 * i):
-            subject = "流量监测-拆分协议"
-            content = "附件为后视镜拆分协议产品相关APP的流量监测使用情况"
+            subject = "邮件标题"
+            content = "邮件正文"
 
             Mirror_path = "d:\\test\\Mirror_Folw_%s.xls" % timenew # 附件地址
 
 
             file_path = [Mirror_path]  # 可添加多个附件到邮箱
-            receive_email = ["317152347@QQ.com"]
+            receive_email = ["接收人的邮箱"]
             Send_email_text(subject,content,file_path,receive_email)
             i += 1
     except:
